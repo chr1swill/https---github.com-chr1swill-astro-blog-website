@@ -1,0 +1,43 @@
+
+.section-recap {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+  
+    height: 100%;
+    max-width: 100%;
+    padding: var(--inner-element-padding) 10px;
+    border-radius: var(--border-radius);
+  
+    background-color: var(--clr-surface);
+    color: var(--clr-text);
+  
+    .section-recap__child-container:nth-child(1),
+    .section-recap__child-container:nth-child(3) {
+      align-content: start;
+      h4 {
+        color: var(--clr-accent);
+      }
+    }
+  
+    .section-recap__child-container {
+      display: grid;
+      justify-content: center;
+  
+      grid-gap: var(--inner-element-padding);
+  
+      ::marker {
+        color: var(--clr-primary);
+      }
+  
+      li {
+        margin: 0 0 10px 0;
+      }
+  
+      .vertical-divider {
+        height: 100%;
+        width: 3px;
+        background-color: var(--clr-accent);
+        border-radius: var(--border-radius);
+      }
+    }
+  }

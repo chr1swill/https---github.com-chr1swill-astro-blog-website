@@ -1,0 +1,34 @@
+article {
+    *:not(
+        .hero__image,
+        .author-credit,
+        .element,
+        .amazon-product,
+        a,
+        .main-content-wrapper,
+        .hero__title-background,
+        .hero__title-wrapper,
+        .hero__title-wrapper > h1,
+        .author-credit,
+        .author-credit__date,
+        .vertical-divider__wrapper,
+        .section-recap__child-container,
+        .vertical-divider,
+        .section-recap > .section-recap__child-container,
+        .section-recap__child-container > h4,
+        .section-recap__child-container > ul,
+        .section-recap__child-container > li,
+        input,
+        label,
+        header,
+        .logo,
+        body,
+        nav,
+        .hero-section__cva,
+        #hero-section,
+        article,
+        main
+      ) {
+      margin: var(--top-spacing) 0 0 0;
+    }
+  }

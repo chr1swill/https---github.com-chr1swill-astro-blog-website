@@ -1,0 +1,29 @@
+@media (prefers-color-scheme: dark) {
+    ::root {
+      --clr-text: hsl(75, 51%, 92%);
+      --clr-background: hsl(75, 50%, 3%);
+      --clr-primary: hsl(103, 52%, 30%);
+      --clr-surface: hsl(130, 60%, 3%);
+      --clr-accent: hsl(133, 53%, 10%);
+  
+      --clr-logo: var(--clr-accent);
+    }
+  }
+
+  //NOTE - scale down nav bar and its element for smaller screen sizes
+
+@media (max-width: 780px) {
+  header {
+    height: calc(var(--header-height) * var(--shrink-factor));
+
+    .logo {
+      scale: 1.5;
+    }
+  }
+
+  .main-content-wrapper {
+    margin: calc(var(--header-height) * var(--shrink-factor)) var(--side-margin)
+      0px var(--side-margin);
+  }
+}
+  

@@ -1,0 +1,17 @@
+img,
+picture,
+video,
+iframe,
+canvas{
+  border-radius: var(--border-radius);
+}
+
+.landscape {
+    aspect-ratio: 16/9;
+    width: 100%;
+  }
+  
+  .portrait {
+    aspect-ratio: 121/215;
+    height: auto;
+  }

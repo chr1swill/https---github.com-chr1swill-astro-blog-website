@@ -1,0 +1,53 @@
+
+:root {
+
+    //NOTE - Color
+
+    --clr-text: hsl(75, 50%, 3%);
+    --clr-background: hsl(75, 51%, 92%);
+    --clr-primary: hsl(103, 52%, 30%);
+    --clr-surface: hsl(130, 60%, 98%);
+    --clr-accent: hsl(133, 53%, 10%);
+  
+    --clr-logo: var(--clr-accent);
+
+    //NOTE - Fonts
+
+    --ff-title: 'Merriweather', serif;
+    --ff-base: 'Lora', serif;
+  
+    --fs-900: clamp(1.8rem, calc(1.47rem + 1.64vw), 2.75rem);
+    --fs-700: clamp(1.6rem, calc(1.39rem + 1.04vw), 2.2rem);
+    --fs-500: clamp(1.42rem, calc(1.31rem + 0.58vw), 1.76rem);
+    --fs-300: clamp(1.27rem, calc(1.22rem + 0.24vw), 1.41rem);
+    --fs-100: clamp(1.13rem, calc(1.13rem + 0vw), 1.13rem);
+  
+    --fw-900: 900;
+    --fw-800: 800;
+  
+    --fw-700: 700;
+    --fw-600: 600;
+    --fw-500: 500;
+    --fw-400: 400;
+    --fw-300: 300;
+
+    //NOTE - Utility
+
+    --header-height: 100px;
+  
+    --br-master: 10px;
+    --border-radius: var(--br-master) var(--br-master) var(--br-master)
+      var(--br-master);
+  
+    --side-margin: 16px;
+  
+    --top-spacing: 1em;
+    --inner-element-padding: 20px;
+  
+    --shrink-factor: 0.75;
+  
+    --transition-time: 0.3s;
+  
+    --drop-shadow: 2px 20px 40px hsla(0, 0%, 0%, 1%);
+  }
+  
