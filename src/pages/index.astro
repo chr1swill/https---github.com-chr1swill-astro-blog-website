@@ -3,6 +3,17 @@ import Layout from '../layouts/BaseLayout.astro';
 import Card from '../components/Card.astro';
 
 const posts = await Astro.glob('../pages/blog/*.md');
+
+function truncateDescription(description) {
+    const words = description.split(' ');
+    const desiredLength = 25;
+    if (words.length > desiredLength) {
+      const truncated = words.slice(0, desiredLength).join(' ');
+      return `${truncated}... Read More`;
+    }
+    return description;
+  }
+
 ---
 
 <Layout 
@@ -13,7 +24,7 @@ description="I'm glad you came to join me, come stay awhile and learn something 
       {posts.map(post => (
         <Card
         title={post.frontmatter.title}
-        description={post.frontmatter.description}
+        description={truncateDescription(post.frontmatter.description)}
         href={post.frontmatter.href}
         />
       ))}
