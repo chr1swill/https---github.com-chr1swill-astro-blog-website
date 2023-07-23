@@ -398,6 +398,6 @@ There is no best way for everyone, for you it may work best to do a
 little of them all. But you need to try it out to learn what works
 for you.
 
-    *Note: most cheap gyms have an activations fee of $50, so factor
+*Note: most cheap gyms have an activations fee of $50, so factor
 that into your decision. These prices have been given based on my
 location so do some research to see what you local offerings are.
