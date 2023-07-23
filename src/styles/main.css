@@ -271,7 +271,9 @@ header .nav-bar {
   background-color: var(--clr-background);
 }
 
+/* Styles for the website footer */
 .website-footer {
+  /* Ensure the footer takes up the full width of its container */
   max-width: 100%;
   height: 100;
   padding: var(--inner-element-padding);
@@ -283,50 +285,51 @@ header .nav-bar {
   border-radius: var(--br-master) var(--br-master) 0px 0px;
 }
 
-.footer__title {
-  color: var(--clr-accent);
-}
-
+/* Styles for the embedded signup form */
 #mc_embed_signup {
   font-family: var(--default-font);
   font-size: var(--fs-100);
   color: var(---clr-text);
 }
 
+/* Styles for the embedded signup form scroll container */
 #mc_embed_signup_scroll h2 {
   color: var(--clr-accent);
 }
+
 #mc_embed_signup_scroll p {
   color: var(---clr-text);
+  margin: var(--top-spacing) 0px 0px 0px;
 }
 
-.mc-field-group {
+/* Styles for the field group container */
+.mc-field-group,
+.optionalParent {
+  /* Ensure the field group container takes up the full width */
+  max-width: 100%;
   display: grid;
-  grid-template-rows: 1fr;
   place-content: center;
   padding: 0px;
   margin: var(--top-spacing) 0px 0px 0px;
 }
 
+/* Styles for the input label */
 label {
   font-weight: var(--fw-600);
   font-size: var(--fs-200);
   color: var(--clr-accent);
 }
 
+/* Styles for the input fields within the field group */
 .mc-field-group input {
   border-radius: var(--border-radius);
   background-color: var(--clr-background);
   color: var(---clr-text);
 }
 
-.optionalParent {
-  max-width: 100%;
-  display: grid;
-  place-content: center;
-}
-
+/* Styles for the subscribe button */
 #mc-embedded-subscribe {
+  /* Set the default styles for the button */
   max-width: 100%;
   margin: var(--top-spacing) 0px 0px 0px;
   font-weight: var(--fw-500);
@@ -334,7 +337,9 @@ label {
   border-radius: var(--border-radius);
   transition: background-color var(--transition-time) ease;
 }
-#mc-embedded-subscribe :hover {
+
+/* Styles for the subscribe button on hover */
+#mc-embedded-subscribe:hover {
   background-color: var(--clr-accent);
 }
 
