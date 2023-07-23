@@ -8,12 +8,7 @@ const posts = await Astro.glob('../pages/blog/*.md');
 <Layout 
 title="Chris is the Best"  
 description="Getting in shape can be a real hassle, especially when you have no clue what you are doing. No one wants to spend all their time figuring out which method is worth it. That is why I put thisarticle together to help find the best way to get strong without thinning your pockets in the process.">
-    <h2>Welcome to <span class="text-gradient">Astro</span></h2>
-    <p class="instructions">
-      To get started, open the directory <code>src/pages</code> in your project.<br
-      />
-      <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-    </p>
+    
     <ul role="list" class="link-card-grid">
       {posts.map(post => (
         <Card

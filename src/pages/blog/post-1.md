@@ -42,31 +42,31 @@ to use it gives you direction on how to train effectively to have
 that be your outcome.
 
  <div class="text-wrapped-element">
-            <img
-              class="portrait element"
-              src="/src/assets/nutritionix-track-app.gif"
-              alt="Adding skinny popcorn to my daily calorie total using the Nutritionix Track App on IOS"
-              loading="lazy"
-            />
-            <div class="text-wrapped">
-              <p>
-                Working out only to lose weight is the best example of this.
-                Many people go to the gym and get a membership that has them
-                paying for every machine in the gym. When in reality they just
-                need to burn more calories than they consume a day. Their whole
-                problem is doing too much in the form of eating excess calories
-                so they need to do something different if they want different
-                results. This can be achieved rather cheaply, they simply need
-                to monitor their intake of calories religiously with - my
-                favorite app for this is Nutritionix Track. Instead of going to
-                the gym they could just save their money on the gym membership,
-                use it to buy some running shoes so they can get out and run. It
-                isn’t until you really think about your goals that you are able
-                to think about the best way to get there, that is why I consider
-                it to be most important.
-              </p>
-            </div>
-          </div>
+  <img
+    class="portrait element"
+    src="/src/assets/nutritionix-track-app.gif"
+    alt="Adding skinny popcorn to my daily calorie total using the Nutritionix Track App on IOS"
+    loading="lazy"
+  />
+  <div class="text-wrapped">
+    <p>
+      Working out only to lose weight is the best example of this.
+      Many people go to the gym and get a membership that has them
+      paying for every machine in the gym. When in reality they just
+      need to burn more calories than they consume a day. Their whole
+      problem is doing too much in the form of eating excess calories
+      so they need to do something different if they want different
+      results. This can be achieved rather cheaply, they simply need
+      to monitor their intake of calories religiously with - my
+      favorite app for this is Nutritionix Track. Instead of going to
+      the gym they could just save their money on the gym membership,
+      use it to buy some running shoes so they can get out and run. It
+      isn’t until you really think about your goals that you are able
+      to think about the best way to get there, that is why I consider
+      it to be most important.
+    </p>
+  </div>
+</div>
           
 ### Focusing on your diet
 
@@ -81,56 +81,56 @@ a food scale to track them and if you don't already weigh yourself
 daily you should start.
 
 <h4 class="dropped-opacity-titledropped-opacity">Author Recommends...</h4>
-          <div class="two-column-grid">
-            <div class="amazon-product">
-              <img
-                src="/src/assets/renpho-digital-scale.webp"
-                alt="Renpho digital scale with an iPhone showcasing the app accompanying in front of it"
-                loading="lazy"
-              />
-              <div class="amazon-product__text-wrapper">
-                <h4>Renpho Digital Scale</h4>
-                <p>
-                  This digital scale has made keeping track of my weight a
-                  breeze. I can always go back to check how much I way on any
-                  given day, spot trends, and it integrates well with the health
-                  app for iPhone.
-                </p>
-                <a
-                  class="amazon-product__button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.amazon.ca/RENPHO-Bluetooth-Body-Fat-Scale/dp/B01N1UX8RW/ref=sxin_15_pa_sp_search_thematic_sspa?content-id=amzn1.sym.67df2caa-85de-4b75-82fc-83c9436f6fd1%253Aamzn1.sym.67df2caa-85de-4b75-82fc-83c9436f6fd1&amp;cv_ct_cx=weighing%252Bscales%252Bkitchen&amp;hvadid=596411301112&amp;hvdev=c&amp;hvlocphy=9000987&amp;hvnetw=g&amp;hvqmt=e&amp;hvrand=3533309241017095576&amp;hvtargid=kwd-311798346853&amp;hydadcr=6003_13220799&amp;keywords=weighing%252Bscales%252Bkitchen&amp;pd_rd_i=B01N1UX8RW&amp;pd_rd_r=56b90505-e87b-4b6a-9866-56996fb0dee3&amp;pd_rd_w=Sp3h9&amp;pd_rd_wg=MitNb&amp;pf_rd_p=67df2caa-85de-4b75-82fc-83c9436f6fd1&amp;pf_rd_r=HRZG45XFQ1XTB9EAXHBE&amp;qid=1684322696&amp;sbo=RZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D&amp;sr=1-2-acb80629-ce74-4cc5-9423-11e8801573fb-spons&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVUEyQUVCNklGQUNJJmVuY3J5cHRlZElkPUEwNzU1NTc3MkpWRDFUM0FNTjdKSCZlbmNyeXB0ZWRBZElkPUEwNTA1NjM2M0VVWkU2RklONzQ5NyZ3aWRnZXROYW1lPXNwX3NlYXJjaF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&amp;th=1&_encoding=UTF8&tag=mrwill-20&linkCode=ur2&linkId=93b2c09ad40a477c99f994d5cdc4a7da&camp=15121&creative=330641"
-                >
-                  <p>Shop Now</p>
-                </a>
-              </div>
-            </div>
-            <div class="amazon-product">
-              <img
-                src="/src/assets/chwares-digital-kitchen-scale.webp"
-                alt="Picture of Chwares Rechargeable scale with a stainless- steel finish and a white background"
-                loading="lazy"
-              />
-              <div class="amazon-product__text-wrapper">
-                <h4>Chwares Food Scale</h4>
-                <p>
-                  This kitchen scale will help remove the friction with tracking
-                  calories. Having the flexibility to charge it via USB will
-                  save you tonnes of time finding the obscure batteries these
-                  scales always seem to use.
-                </p>
-                <a
-                  class="amazon-product__button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.amazon.ca/CHWARES-Waterproof-Rechargeable-Stainless-Ingredients/dp/B07RQR8K45/ref=sr_1_3_sspa?hvadid=596411301112&amp;hvdev=c&amp;hvlocphy=9000987&amp;hvnetw=g&amp;hvqmt=e&amp;hvrand=3533309241017095576&amp;hvtargid=kwd-311798346853&amp;hydadcr=6003_13220799&amp;keywords=weighing%252Bscales%252Bkitchen&amp;qid=1684322696&amp;sr=8-3-spons&amp;smid=A2G6YQ3BT3XRSP&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVUEyQUVCNklGQUNJJmVuY3J5cHRlZElkPUEwODE3Mjk1TFZOVVc1WllFWkVJJmVuY3J5cHRlZEFkSWQ9QTAzOTQ2MDQzSzA0UFlOODBLQjg2JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&amp;th=1&_encoding=UTF8&tag=mrwill-20&linkCode=ur2&linkId=6f7d6fad4c6b689ee6da9f4609fd2f6b&camp=15121&creative=330641"
-                >
-                  <p>Shop Now</p>
-                </a>
-              </div>
-            </div>
-          </div>
+<div class="two-column-grid">
+  <div class="amazon-product">
+    <img
+      src="/src/assets/renpho-digital-scale.webp"
+      alt="Renpho digital scale with an iPhone showcasing the app accompanying in front of it"
+      loading="lazy"
+    />
+    <div class="amazon-product__text-wrapper">
+      <h4>Renpho Digital Scale</h4>
+      <p>
+        This digital scale has made keeping track of my weight a
+        breeze. I can always go back to check how much I way on any
+        given day, spot trends, and it integrates well with the health
+        app for iPhone.
+      </p>
+      <a
+        class="amazon-product__button"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.amazon.ca/RENPHO-Bluetooth-Body-Fat-Scale/dp/B01N1UX8RW/ref=sxin_15_pa_sp_search_thematic_sspa?content-id=amzn1.sym.67df2caa-85de-4b75-82fc-83c9436f6fd1%253Aamzn1.sym.67df2caa-85de-4b75-82fc-83c9436f6fd1&amp;cv_ct_cx=weighing%252Bscales%252Bkitchen&amp;hvadid=596411301112&amp;hvdev=c&amp;hvlocphy=9000987&amp;hvnetw=g&amp;hvqmt=e&amp;hvrand=3533309241017095576&amp;hvtargid=kwd-311798346853&amp;hydadcr=6003_13220799&amp;keywords=weighing%252Bscales%252Bkitchen&amp;pd_rd_i=B01N1UX8RW&amp;pd_rd_r=56b90505-e87b-4b6a-9866-56996fb0dee3&amp;pd_rd_w=Sp3h9&amp;pd_rd_wg=MitNb&amp;pf_rd_p=67df2caa-85de-4b75-82fc-83c9436f6fd1&amp;pf_rd_r=HRZG45XFQ1XTB9EAXHBE&amp;qid=1684322696&amp;sbo=RZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D&amp;sr=1-2-acb80629-ce74-4cc5-9423-11e8801573fb-spons&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVUEyQUVCNklGQUNJJmVuY3J5cHRlZElkPUEwNzU1NTc3MkpWRDFUM0FNTjdKSCZlbmNyeXB0ZWRBZElkPUEwNTA1NjM2M0VVWkU2RklONzQ5NyZ3aWRnZXROYW1lPXNwX3NlYXJjaF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&amp;th=1&_encoding=UTF8&tag=mrwill-20&linkCode=ur2&linkId=93b2c09ad40a477c99f994d5cdc4a7da&camp=15121&creative=330641"
+      >
+        <p>Shop Now</p>
+      </a>
+    </div>
+  </div>
+  <div class="amazon-product">
+    <img
+      src="/src/assets/chwares-digital-kitchen-scale.webp"
+      alt="Picture of Chwares Rechargeable scale with a stainless- steel finish and a white background"
+      loading="lazy"
+    />
+    <div class="amazon-product__text-wrapper">
+      <h4>Chwares Food Scale</h4>
+      <p>
+        This kitchen scale will help remove the friction with tracking
+        calories. Having the flexibility to charge it via USB will
+        save you tonnes of time finding the obscure batteries these
+        scales always seem to use.
+      </p>
+      <a
+        class="amazon-product__button"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.amazon.ca/CHWARES-Waterproof-Rechargeable-Stainless-Ingredients/dp/B07RQR8K45/ref=sr_1_3_sspa?hvadid=596411301112&amp;hvdev=c&amp;hvlocphy=9000987&amp;hvnetw=g&amp;hvqmt=e&amp;hvrand=3533309241017095576&amp;hvtargid=kwd-311798346853&amp;hydadcr=6003_13220799&amp;keywords=weighing%252Bscales%252Bkitchen&amp;qid=1684322696&amp;sr=8-3-spons&amp;smid=A2G6YQ3BT3XRSP&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVUEyQUVCNklGQUNJJmVuY3J5cHRlZElkPUEwODE3Mjk1TFZOVVc1WllFWkVJJmVuY3J5cHRlZEFkSWQ9QTAzOTQ2MDQzSzA0UFlOODBLQjg2JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&amp;th=1&_encoding=UTF8&tag=mrwill-20&linkCode=ur2&linkId=6f7d6fad4c6b689ee6da9f4609fd2f6b&camp=15121&creative=330641"
+      >
+        <p>Shop Now</p>
+      </a>
+    </div>
+  </div>
+</div>
 
 That is all to say that controlling your diet plays a major role in
 complementing what you do to get your dream physic. I didn't know it
@@ -152,51 +152,51 @@ only follow it to a tee, you will never take up a flash diet again.
 ### The importance of recovery
 
 <div class="text-wrapped-element">
-            <div class="amazon-product element">
-              <img
-                class="portrait"
-                src="/src/assets/why-we-sleep-book.webp"
-                alt="Cover of the book titled 'Why We Sleep' by Matthew Walker with the subtitle 'unlocking the power of sleep and dreams' a top of a background of a star filled sky in a deep color or navy blue and a crescent moon on top of the title"
-                loading="lazy"
-              />
-              <h3>Why We Sleep</h3>
-              <p>
-                If you want to learn more about bettering your rest. Check out
-                the book
-                <a
-                  target="_blank"
-                  href="https://www.amazon.ca/Why-We-Sleep-Unlocking-Dreams/dp/1501144324/ref=asc_df_1501144324/?tag=googleshopc0c-20&amp;linkCode=df0&amp;hvadid=309747941035&amp;hvpos=&amp;hvnetw=g&amp;hvrand=10557114532583067266&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9000987&amp;hvtargid=pla-542231888375&amp;psc=1&_encoding=UTF8&tag=mrwill-20&linkCode=ur2&linkId=3558bcd8522db9c0e67871bb8bff61f4&camp=15121&creative=330641"
-                  >"Why We Sleep: Unlocking the Power of Sleep and Dreams" by
-                  Matthew Walker, PhD</a
-                >.
-              </p>
-              <p>
-                It's also available in audio format so check out audible or your
-                local public library that's more your style.
-              </p>
-              <a
-                class="amazon-product__button"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.amazon.ca/Why-We-Sleep-Unlocking-Dreams/dp/1501144324/ref=asc_df_1501144324/?tag=googleshopc0c-20&amp;linkCode=df0&amp;hvadid=309747941035&amp;hvpos=&amp;hvnetw=g&amp;hvrand=10557114532583067266&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9000987&amp;hvtargid=pla-542231888375&amp;psc=1&_encoding=UTF8&tag=mrwill-20&linkCode=ur2&linkId=3558bcd8522db9c0e67871bb8bff61f4&camp=15121&creative=330641"
-              >
-                <p>Shop Now</p>
-              </a>
-            </div>
-            <div class="text-wrapped">
-              <p>
-                Sleep is often not really thought of when it comes to workout.
-                Every time you push yourself to the limit you are creating
-                little micro tears in your muscles. These tears end up healing
-                into bigger muscles as you give them time to rest, which is why
-                you feel sore when you exercise properly. So unless you are one
-                of those sleepwalkers, your sleep time is your real muscles
-                repair time. always get a good night's rest after exercise. It
-                will keep your mind sharp and make sure you're growing's
-                stronger as well.
-              </p>
-            </div>
-          </div>
+  <div class="amazon-product element">
+    <img
+      class="portrait"
+      src="/src/assets/why-we-sleep-book.webp"
+      alt="Cover of the book titled 'Why We Sleep' by Matthew Walker with the subtitle 'unlocking the power of sleep and dreams' a top of a background of a star filled sky in a deep color or navy blue and a crescent moon on top of the title"
+      loading="lazy"
+    />
+    <h3>Why We Sleep</h3>
+    <p>
+      If you want to learn more about bettering your rest. Check out
+      the book
+      <a
+        target="_blank"
+        href="https://www.amazon.ca/Why-We-Sleep-Unlocking-Dreams/dp/1501144324/ref=asc_df_1501144324/?tag=googleshopc0c-20&amp;linkCode=df0&amp;hvadid=309747941035&amp;hvpos=&amp;hvnetw=g&amp;hvrand=10557114532583067266&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9000987&amp;hvtargid=pla-542231888375&amp;psc=1&_encoding=UTF8&tag=mrwill-20&linkCode=ur2&linkId=3558bcd8522db9c0e67871bb8bff61f4&camp=15121&creative=330641"
+        >"Why We Sleep: Unlocking the Power of Sleep and Dreams" by
+        Matthew Walker, PhD</a
+      >.
+    </p>
+    <p>
+      It's also available in audio format so check out audible or your
+      local public library that's more your style.
+    </p>
+    <a
+      class="amazon-product__button"
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://www.amazon.ca/Why-We-Sleep-Unlocking-Dreams/dp/1501144324/ref=asc_df_1501144324/?tag=googleshopc0c-20&amp;linkCode=df0&amp;hvadid=309747941035&amp;hvpos=&amp;hvnetw=g&amp;hvrand=10557114532583067266&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9000987&amp;hvtargid=pla-542231888375&amp;psc=1&_encoding=UTF8&tag=mrwill-20&linkCode=ur2&linkId=3558bcd8522db9c0e67871bb8bff61f4&camp=15121&creative=330641"
+    >
+      <p>Shop Now</p>
+    </a>
+  </div>
+  <div class="text-wrapped">
+    <p>
+      Sleep is often not really thought of when it comes to workout.
+      Every time you push yourself to the limit you are creating
+      little micro tears in your muscles. These tears end up healing
+      into bigger muscles as you give them time to rest, which is why
+      you feel sore when you exercise properly. So unless you are one
+      of those sleepwalkers, your sleep time is your real muscles
+      repair time. always get a good night's rest after exercise. It
+      will keep your mind sharp and make sure you're growing's
+      stronger as well.
+    </p>
+  </div>
+</div>
 
 Sleep is often not really thought of when it comes to workout.
 Every time you push yourself to the limit you are creating
@@ -253,7 +253,7 @@ and or a treadmill. If you want to build some muscle get a squat
 rack and a bench. The possibilities are endless when you customize
 your home gym to your needs.
 
-    Back to what you came for, building serious strength on a budget.
+Back to what you came for, building serious strength on a budget.
 The only equipment you will need is a pair of adjustable dumbbells
 and an adjustable bench. With that setup you can work all of your
 muscle groups effectively. Your only limit will be how high your max
@@ -261,11 +261,101 @@ weight is for your dumbbells set. If you invest in heavy enough
 weight you will have a setup that can bring from scrawny to jacked
 and never need replacement.
 
-**line 293 - 312 aside-section-recap**
+<aside class="section-recap">
+  <div class="section-recap__child-container">
+    <h4>Pros:</h4>
+    <ul>
+      <li>Practically free</li>
+      <li>Train anywhere</li>
+    </ul>
+  </div>
 
-**line 313 - 366 amazon product**
+  <div class="section-recap__child-container">
+    <div class="vertical-divider"></div>
+  </div>
 
-**line 367 - 388 aside-section-recap**
+  <div class="section-recap__child-container">
+    <h4>Cons:</h4>
+    <ul>
+      <li>Slow progress</li>
+    </ul>
+  </div>
+</aside>
+
+<h4 class="dropped-opacity-title">Author Recommends...</h4>
+<div class="two-column-grid">
+  <div class="amazon-product">
+    <img
+      src="/src/assets/bowflex-selectTech-dumbbell.webp"
+      alt="Bowflex SelectTech dumbbell in black with red accents, a white background as a backdrop."
+      loading="lazy"
+    />
+    <div class="amazon-product__text-wrapper">
+      <h4>Bowflex SelectTech Dumbbell</h4>
+      <p>
+        Adjustable weights are a game changer for a home gym. They are
+        so much more compact then buy all the individual weights
+        making them fit almost anywhere. Most importantly you will
+        easily be able to up you weight without being limited to have
+        to up your rep/set count.
+      </p>
+      <a
+        class="amazon-product__button"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.amazon.ca/Why-We-Sleep-Unlocking-https://www.amazon.ca/Bowflex-SelectTech-1090-Adjustable-Dumbbell/dp/B001ARYU58/ref=sr_1_12?crid=G01417W2VQ9D&amp;keywords=adjustable%252Bdumbbells%252Bpair&amp;qid=1684336059&amp;sprefix=adjustable%252B%252Caps%252C86&amp;sr=8-12&amp;th=1Dreams/dp/1501144324/ref=asc_df_1501144324/?tag=googleshopc0c-20&amp;linkCode=df0&amp;hvadid=309747941035&amp;hvpos=&amp;hvnetw=g&amp;hvrand=10557114532583067266&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9000987&amp;hvtargid=pla-542231888375&amp;psc=1&_encoding=UTF8&tag=mrwill-20&linkCode=ur2&linkId=ad64bf8a139450193bef082cd7787ae9&camp=15121&creative=330641"
+      >
+        <p>Shop Now</p>
+      </a>
+    </div>
+  </div>
+  <div class="amazon-product">
+    <img
+      src="/src/assets/aboveGenius-adjustable-weight-bench.webp"
+      alt="The AboveGenius Adjustable Bench has a synthetic leather seat and backrest in black with a neon yellow logo on the backrest, the backrest is in a neutral 45 deg. Three quarters of the background is white with the second quarter from the top featuring a horizontal neon yellow strip."
+      loading="lazy"
+    />
+    <div class="amazon-product__text-wrapper">
+      <h4>AboveGenius Adjustable Bench</h4>
+      <p>
+        Having a bench that is adjustable allow you to work every
+        muscle group. You can use it to help you hit muscles that work
+        be hard to get to otherwise. It will help you add weight to
+        your core exercises, make doing rows that much easier, and you
+        can even drop it flat to get target your chest
+      </p>
+      <a
+        class="amazon-product__button"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.amazon.ca/AboveGenius-Adjustable-Assembled-Adjustment-Foldable/dp/B0BRR5RF49/ref=sr_1_5?keywords=adjustable+bench+gym&amp;qid=1684336190&amp;sprefix=adjustable+ben%252Caps%252C92&amp;sr=8-5&_encoding=UTF8&tag=mrwill-20&linkCode=ur2&linkId=777b9fa899d88dc6cadf1651752a8f47&camp=15121&creative=330641"
+      >
+        <p>Shop Now</p>
+      </a>
+    </div>
+  </div>
+</div>
+
+<aside class="section-recap">
+  <div class="section-recap__child-container">
+    <h4>Pros:</h4>
+    <ul>
+      <li>No commute</li>
+      <li>Totally custom</li>
+      <li>Pay once</li>
+    </ul>
+  </div>
+  <div class="section-recap__child-container">
+    <div class="vertical-divider"></div>
+  </div>
+  <div class="section-recap__child-container">
+    <h4>Cons:</h4>
+    <ul>
+      <li>Big investment</li>
+      <li>Need space</li>
+    </ul>
+  </div>
+</aside>
 
 ### Get a membership at local gym
 
@@ -281,7 +371,26 @@ deciding what you want to do or how to do it. Always go to the gym
 with a plan or you will end up wasting a lot of time there not
 exercising.
 
-**line 404 - 425 aside-section-recap**
+<aside class="section-recap">
+  <div class="section-recap__child-container">
+    <h4>Pros:</h4>
+    <ul>
+      <li>Variety of equipment</li>
+      <li>Community support</li>
+      <li>Amenities</li>
+    </ul>
+  </div>
+  <div class="section-recap__child-container">
+    <div class="vertical-divider"></div>
+  </div>
+  <div class="section-recap__child-container">
+    <h4>Cons:</h4>
+    <ul>
+      <li>Travel Time</li>
+      <li>Monty payment</li>
+    </ul>
+  </div>
+</aside>
 
 Now that concludes my list of best ways to get jacked in on budget.
 I want you to know if you want to get strong, just get started.
