@@ -41,7 +41,7 @@ physique so it will always be top of mind. Whatever it is you want
 to use it gives you direction on how to train effectively to have
 that be your outcome.
 
- <div class="text-wrapped-element">
+<div class="text-wrapped-element">
   <img
     class="portrait element"
     src="/src/assets/nutritionix-track-app.gif"
