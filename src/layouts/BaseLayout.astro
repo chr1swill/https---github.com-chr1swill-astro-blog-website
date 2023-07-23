@@ -5,6 +5,11 @@ import HeadElement from '../components/HeadElement.astro';
 
 import "../styles/main.css"
 
+export interface Props {
+  title: string;
+  description: string;
+}
+
 const {title,  description} = Astro.props;
 ---
 
