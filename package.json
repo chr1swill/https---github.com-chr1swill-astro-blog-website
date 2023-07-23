@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev npm-run-all copy --parallel watch serve",
-    "build": "npm-run-all copy:html build:astro",
+    "build": "npm-run-all copy:html build:sass build:astro",
     "preview": "astro preview",
     "astro": "astro",
     "build:sass": "sass  --no-source-map src/styles/sass:public/css",
@@ -22,7 +22,7 @@
     "serve": "browser-sync start --server public --files public",
     "start-sass": "npm-run-all copy --parallel watch serve",
     "build:astro": "astro build",
-    "postbuild": "postcss public/css/*.css -u autoprefixer cssnano -r --no-map"
+    "postbuild": "postcss public/css/style.css -u autoprefixer cssnano -r --no-map"
   },
   "dependencies": {
     "@astrojs/mdx": "^0.19.7",
