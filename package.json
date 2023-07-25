@@ -9,8 +9,7 @@
     "dev": "astro dev", 
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "watch:sass": "sass --no-source-map --watch src/styles/sass:src/styles"
+    "preview": "astro preview"
   },
   "dependencies": {
     "@astrojs/mdx": "^0.19.7",
