@@ -6,11 +6,11 @@
   "main": "public/index.html",
   "author": "5t3ph",
   "scripts": {
-    "dev:": "astro dev",
+    "dev": "astro dev", 
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "watch:sass": "sass  --no-source-map --watch src/styles/sass:src/styles"
+    "watch:sass": "sass --no-source-map --watch src/styles/sass:src/styles"
   },
   "dependencies": {
     "@astrojs/mdx": "^0.19.7",
