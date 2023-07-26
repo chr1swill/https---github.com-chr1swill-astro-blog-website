@@ -9,7 +9,8 @@
     "dev": "astro dev", 
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "dist:preview": "http-server dist"
   },
   "dependencies": {
     "@astrojs/mdx": "^0.19.7",

@@ -1,0 +1,21 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
+    <g id="mark">
+        <circle class="st0" cx="290.7" cy="205.8" r="125.1"/>
+        <circle class="st0" cx="790.9" cy="438.7" r="93.8"/>
+        <path class="st1" d="M572.2,999.3c-18.9-481.2,451.3-481.3,434.4,0"/>
+        <path class="st2" d="M73,999.3c2.3-305.9,113.5-552.6,336.3-552.6c77.5,0,148.7,43.6,205.6,116.7"/>
+    </g>
+    <style>
+        #mark { width: 100%; height: auto; --stroke-width-scale-increase: 3; }
+        .st1 { stroke: #000; fill:none; stroke-width: calc(32.67 * var(--stroke-width-scale-increase)); stroke-miterlimit: 10;}
+        .st2 { stroke: #000; fill:none; stroke-width: calc(37.83 * var(--stroke-width-scale-increase)); stroke-miterlimit: 10;}
+        circle { fill: #000; width: 100%; height: auto; }
+        @media (prefers-color-scheme: dark) {
+            
+            .st1 { stroke: #FFF; fill:none; stroke-width: calc(32.67 * var(--stroke-width-scale-increase)); stroke-miterlimit: 10;}
+            .st2 { stroke: #FFF; fill:none; stroke-width: calc(32.67 * var(--stroke-width-scale-increase)); stroke-miterlimit: 10;}
+            circle { fill: #FFF; }
+        }
+        
+    </style>
+</svg>
