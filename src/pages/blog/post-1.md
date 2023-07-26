@@ -5,9 +5,9 @@ author: ' Mr. Williams'
 date: '05.10.2024'
 description: 'Getting in shape can be a real hassle, especially when you have no clue what you are doing. No one wants to spend all their time figuring out which method is worth it. I put this article together to help find the best way to get strong without thinning your pockets in the process.'
 href: '/blog/post-1'
-image: '/scr/assets/man-lacing-shoes-3097x1936.jpg'
+image: '/assets/man-lacing-shoes-3097x1936.jpg'
 imageALT: 'Man on the side of the street lacing up his bright colored running shoes'
-imageSrcset: ' /src/assets/man-lacing-shoes-640x400.webp 640w, /src/assets/man-lacing-shoes-640x400.jpg 640w, /src/assets/man-lacing-shoes-1920x1200.webp 1920w, /src/assets/man-lacing-shoes-1920x1200.webp 1920w, /src/assets/man-lacing-shoes-2400x1500.webp 2400w, /src/assets/man-lacing-shoes-2400x1500.jpg 2400w, /src/assets/man-lacing-shoes-3097x1936.webp 3097w, /src/assets/man-lacing-shoes-3097x1936.jpg 3097w'
+imageSrcset: ' /assets/man-lacing-shoes-640x400.webp 640w, /assets/man-lacing-shoes-640x400.jpg 640w, /assets/man-lacing-shoes-1920x1200.webp 1920w, /assets/man-lacing-shoes-1920x1200.webp 1920w, /assets/man-lacing-shoes-2400x1500.webp 2400w, /assets/man-lacing-shoes-2400x1500.jpg 2400w, /assets/man-lacing-shoes-3097x1936.webp 3097w, /assets/man-lacing-shoes-3097x1936.jpg 3097w'
 ---
 
 Let's face it, having your own trainer to help keep you motivated
@@ -44,7 +44,7 @@ that be your outcome.
 <div class="text-wrapped-element">
   <img
     class="portrait element"
-    src="/src/assets/nutritionix-track-app.gif"
+    src="/assets/nutritionix-track-app.gif"
     alt="Adding skinny popcorn to my daily calorie total using the Nutritionix Track App on IOS"
     loading="lazy"
   />
@@ -84,7 +84,7 @@ daily you should start.
 <div class="two-column-grid">
   <div class="amazon-product">
     <img
-      src="/src/assets/renpho-digital-scale.webp"
+      src="/assets/renpho-digital-scale.webp"
       alt="Renpho digital scale with an iPhone showcasing the app accompanying in front of it"
       loading="lazy"
     />
@@ -108,7 +108,7 @@ daily you should start.
   </div>
   <div class="amazon-product">
     <img
-      src="/src/assets/chwares-digital-kitchen-scale.webp"
+      src="/assets/chwares-digital-kitchen-scale.webp"
       alt="Picture of Chwares Rechargeable scale with a stainless- steel finish and a white background"
       loading="lazy"
     />
@@ -147,7 +147,7 @@ only follow it to a tee, you will never take up a flash diet again.
 
 ### My $100,000,000 diet...
 
-[![Learn a diet that you can stick with and now just start as a trend. Alex Hormozi will tell you the truth about getting to your fitness goals without starting a flash diet.](/src/assets/youtube-video-thumbnail-alex-hormozi.jpg)](https://www.youtube.com/embed/RpqSy5V1fFQ)
+[![Learn a diet that you can stick with and now just start as a trend. Alex Hormozi will tell you the truth about getting to your fitness goals without starting a flash diet.](/assets/youtube-video-thumbnail-alex-hormozi.jpg)](https://www.youtube.com/embed/RpqSy5V1fFQ)
 
 ### The importance of recovery
 
@@ -155,7 +155,7 @@ only follow it to a tee, you will never take up a flash diet again.
   <div class="amazon-product element">
     <img
       class="portrait"
-      src="/src/assets/why-we-sleep-book.webp"
+      src="/assets/why-we-sleep-book.webp"
       alt="Cover of the book titled 'Why We Sleep' by Matthew Walker with the subtitle 'unlocking the power of sleep and dreams' a top of a background of a star filled sky in a deep color or navy blue and a crescent moon on top of the title"
       loading="lazy"
     />
@@ -236,7 +236,7 @@ your only weight you have to get a little creative. Really, if you
 don’t have other equipment that is all you need to get strong. If
 you don’t believe me check out [this video.](https://www.youtube.com/watch?v=kuS4iqIq_Xk)
 
-[![This shows the how truely limitless calistenics can be. These strong but lean men are all at a park together preforming freestyle routine of musles-ups, bar spins, flips, reverse bar spin, etc. All this built up from the strength and mobilty they calistenics gave them. which is truly remarkable](/src/assets/youtube-video-thumbnail-nyc-calistenics.jpg))](https://www.youtube.com/watch?v=kuS4iqIq_Xk)
+[![This shows the how truely limitless calistenics can be. These strong but lean men are all at a park together preforming freestyle routine of musles-ups, bar spins, flips, reverse bar spin, etc. All this built up from the strength and mobilty they calistenics gave them. which is truly remarkable](/assets/youtube-video-thumbnail-nyc-calistenics.jpg)](https://www.youtube.com/watch?v=kuS4iqIq_Xk)
 
 ### Build your own Home Gym
 
@@ -286,7 +286,7 @@ and never need replacement.
 <div class="two-column-grid">
   <div class="amazon-product">
     <img
-      src="/src/assets/bowflex-selectTech-dumbbell.webp"
+      src="/assets/bowflex-selectTech-dumbbell.webp"
       alt="Bowflex SelectTech dumbbell in black with red accents, a white background as a backdrop."
       loading="lazy"
     />
@@ -311,7 +311,7 @@ and never need replacement.
   </div>
   <div class="amazon-product">
     <img
-      src="/src/assets/aboveGenius-adjustable-weight-bench.webp"
+      src="/assets/aboveGenius-adjustable-weight-bench.webp"
       alt="The AboveGenius Adjustable Bench has a synthetic leather seat and backrest in black with a neon yellow logo on the backrest, the backrest is in a neutral 45 deg. Three quarters of the background is white with the second quarter from the top featuring a horizontal neon yellow strip."
       loading="lazy"
     />
