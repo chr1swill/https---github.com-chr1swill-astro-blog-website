@@ -51,8 +51,6 @@ The most difficult thing is figuring out what to do with this free time. So let 
  
 If I’m being honest, on most nights I don’t stop using these sorts of devices until about 10 minutes before bed, so how do I do it? My secret is blue light glasses; they block most blue light, so you can use your screen and not affect your body's melatonin production. When you pair them with orange screen filters, you get the best of both worlds, finishing all your work while still sleeping like a baby.
  
-      <!-- Blue light glasses link - make a card like the one on homepage to allow consitency  -->
- 
 ### Make your environment conducive to great sleep.
  
 First and foremost, your sleeping environment should put you in a mood to fall asleep. You should only get into or out of bed when you are sleeping. That means no cell phones are devices in bed or even in books. Your bed's only function should be a comfortable place to sleep. This will ensure that when you get into bed, you fall asleep and stay asleep.
@@ -79,7 +77,7 @@ If you can’t put curtains up, the next best thing is a good sleep mask. For me
  
 When you work out, your body becomes more active, and your heart rate increases. This boosts blood circulation, sending more oxygen and nutrients to your brain, which helps you feel more awake and alert.
  
- Additionally, exercise releases hormones that can make you feel more energized and awake.
+Additionally, exercise releases hormones that can make you feel more energized and awake.
  
 ### No coffee in the morning
  
@@ -96,6 +94,4 @@ After spending 6–9 hours asleep, your body is craving water. That's why you fe
 If you don’t believe me, try it for a week; it’s a game changer. It also has the benefit of making going back to sleep impossible. Unless you don't mind wetting the bed.
  
  Now, to truly improve your sleep, you need to make the changes necessary to get that rest. I provided you with a guide; now it's up to you to adapt it to your life. If you really want to wake up feeling like a million bucks, you have to act like it. 
- 
- 
-	<!-- Products: sleep mask, ear plugs, pillow, glasses -->
+
