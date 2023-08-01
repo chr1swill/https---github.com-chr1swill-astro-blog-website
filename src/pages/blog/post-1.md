@@ -2,8 +2,8 @@
 layout: '../../layouts/PostLayout.astro'
 title: 'How to get in shape for the least amount of money: Getting jacked on a budget'
 author: ' Mr. Williams'
-date: '05.10.2024'
-description: 'Getting in shape can be a real hassle, especially when you have no clue what you are doing. No one wants to spend all their time figuring out which method is worth it. I put this article together to help find the best way to get strong without thinning your pockets in the process.'
+date: '05.10.2023'
+description: "Getting in shape can be a real hassle, especially when you have no clue what you are doing. No one wants to spend all their time figuring out which method is worth it. I put this article together to help find the best way to get strong without thinning your pockets in the process."
 href: '/blog/post-1'
 image: '/assets/man-lacing-shoes-3097x1936.jpg'
 imageALT: 'Man on the side of the street lacing up his bright colored running shoes'

@@ -5,14 +5,17 @@ import Card from '../components/Card.astro';
 const posts = await Astro.glob('../pages/blog/*.md');
 
 function truncateDescription(description) {
+  if (typeof description === 'string') {
     const words = description.split(' ');
     const desiredLength = 25;
     if (words.length > desiredLength) {
       const truncated = words.slice(0, desiredLength).join(' ');
-      return `${truncated}... Read More`;
+      return `${truncated}...`;
     }
-    return description;
   }
+  return description;
+}
+
 
 ---
 
