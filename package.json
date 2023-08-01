@@ -10,7 +10,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "dist:preview": "http-server dist"
+    "dist:preview": "http-server dist",
+    "watch:sass": "sass --watch src/styles/sass/main.scss:public/css/main.css"
   },
   "dependencies": {
     "@astrojs/mdx": "^0.19.7",
