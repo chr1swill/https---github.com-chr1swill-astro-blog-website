@@ -1,6 +1,10 @@
 
 //ANCHOR -font setups
 
+h1, h2, h3, h4 {
+  text-transform: capitalize;
+}
+
 h1 {
     font-family: var(--ff-title);
     font-weight: var(--fw-900);
@@ -11,7 +15,7 @@ h1 {
   
   h2 {
     font-family: var(--ff-title);
-    font-weight: var(--fw-800);
+    font-weight: var(--fw-700);
     font-size: var(--fs-700);
     color: var(--clr-accent);
   }
@@ -25,7 +29,7 @@ h1 {
   
   h4 {
     font-family: var(--ff-title);
-    font-weight: var(--fw-600);
+    font-weight: var(--fw-700);
     font-size: var(--fs-300);
     color: var(--clr-accent);
   }
