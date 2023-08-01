@@ -10,7 +10,7 @@ imageALT: 'Man on the side of the street lacing up his bright colored running sh
 imageSrcset: ' /assets/star-night-glowing-tent-640x427.jpg 640w, /assets/star-night-glowing-tent-1920x1280.jpg 1920w, /assets/star-night-glowing-tent-2400x1600.jpg 2400w'
 ---
  
-## Why is sleep important?
+## Why is sleep important
  
 Sleep plays a key role in so many different areas of your life. From focus to mood, your productivity in every area of your life will drastically decline if you lack sleep .
  
@@ -20,7 +20,7 @@ It’s very important to catch this as soon as possible because the long-term im
  
 So make sure you get enough sleep. In the short term, it may not be an issue,  but over a long enough period of time, it poses a serious health risk.
  
-##  How much sleep should I be getting (when and for how long)?
+##  How much sleep do I really need
  
 The amount of sleep you need for a night is different for everyone. Some people are fine with less sleep than others and are still able to perform at their best.
  
@@ -51,7 +51,7 @@ The most difficult thing is figuring out what to do with this free time. So let 
  
 If I’m being honest, on most nights I don’t stop using these sorts of devices until about 10 minutes before bed, so how do I do it? My secret is blue light glasses; they block most blue light, so you can use your screen and not affect your body's melatonin production. When you pair them with orange screen filters, you get the best of both worlds, finishing all your work while still sleeping like a baby.
  
-      Blue light glasses link 
+      <!-- Blue light glasses link - make a card like the one on homepage to allow consitency  -->
  
 ### Make your environment conducive to great sleep.
  
@@ -98,4 +98,4 @@ If you don’t believe me, try it for a week; it’s a game changer. It also has
  Now, to truly improve your sleep, you need to make the changes necessary to get that rest. I provided you with a guide; now it's up to you to adapt it to your life. If you really want to wake up feeling like a million bucks, you have to act like it. 
  
  
-	Products: sleep mask, ear plugs, pillow, glasses
+	<!-- Products: sleep mask, ear plugs, pillow, glasses -->
