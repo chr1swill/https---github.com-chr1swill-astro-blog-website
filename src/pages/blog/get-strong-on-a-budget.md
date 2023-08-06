@@ -4,7 +4,7 @@ title: "How to get in shape for the least amount of money: Getting jacked on a b
 author: " Mr. Williams"
 date: "05.10.2023"
 description: "Getting in shape can be a real hassle, especially when you have no clue what you are doing. No one wants to spend all their time figuring out which method is worth it. I put this article together to help find the best way to get strong without thinning your pockets in the process."
-href: "/blog/post-1"
+href: "/blog/get-strong-on-a-budget"
 image: "/assets/man-lacing-shoes-3097x1936.jpg"
 imageALT: "Man on the side of the street lacing up his bright colored running shoes"
 imageSrcset: " /assets/man-lacing-shoes-640x400.webp 640w, /assets/man-lacing-shoes-640x400.jpg 640w, /assets/man-lacing-shoes-1920x1200.webp 1920w, /assets/man-lacing-shoes-1920x1200.webp 1920w, /assets/man-lacing-shoes-2400x1500.webp 2400w, /assets/man-lacing-shoes-2400x1500.jpg 2400w, /assets/man-lacing-shoes-3097x1936.webp 3097w, /assets/man-lacing-shoes-3097x1936.jpg 3097w"
