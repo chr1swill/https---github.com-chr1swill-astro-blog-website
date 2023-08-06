@@ -80,7 +80,7 @@ know your maintenance calorie amount now would be a good time to get
 a food scale to track them and if you don't already weigh yourself
 daily you should start.
 
-<h4 class="dropped-opacity-titledropped-opacity">Author Recommends...</h4>
+<h4 class="dropped-opacity-title">Author Recommends...</h4>
 <div class="two-column-grid">
   <div class="amazon-product">
     <img
