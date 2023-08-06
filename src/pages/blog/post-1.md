@@ -1,13 +1,13 @@
 ---
-layout: '../../layouts/PostLayout.astro'
-title: 'How to get in shape for the least amount of money: Getting jacked on a budget'
-author: ' Mr. Williams'
-date: '05.10.2023'
+layout: "../../layouts/PostLayout.astro"
+title: "How to get in shape for the least amount of money: Getting jacked on a budget"
+author: " Mr. Williams"
+date: "05.10.2023"
 description: "Getting in shape can be a real hassle, especially when you have no clue what you are doing. No one wants to spend all their time figuring out which method is worth it. I put this article together to help find the best way to get strong without thinning your pockets in the process."
-href: '/blog/post-1'
-image: '/assets/man-lacing-shoes-3097x1936.jpg'
-imageALT: 'Man on the side of the street lacing up his bright colored running shoes'
-imageSrcset: ' /assets/man-lacing-shoes-640x400.webp 640w, /assets/man-lacing-shoes-640x400.jpg 640w, /assets/man-lacing-shoes-1920x1200.webp 1920w, /assets/man-lacing-shoes-1920x1200.webp 1920w, /assets/man-lacing-shoes-2400x1500.webp 2400w, /assets/man-lacing-shoes-2400x1500.jpg 2400w, /assets/man-lacing-shoes-3097x1936.webp 3097w, /assets/man-lacing-shoes-3097x1936.jpg 3097w'
+href: "/blog/post-1"
+image: "/assets/man-lacing-shoes-3097x1936.jpg"
+imageALT: "Man on the side of the street lacing up his bright colored running shoes"
+imageSrcset: " /assets/man-lacing-shoes-640x400.webp 640w, /assets/man-lacing-shoes-640x400.jpg 640w, /assets/man-lacing-shoes-1920x1200.webp 1920w, /assets/man-lacing-shoes-1920x1200.webp 1920w, /assets/man-lacing-shoes-2400x1500.webp 2400w, /assets/man-lacing-shoes-2400x1500.jpg 2400w, /assets/man-lacing-shoes-3097x1936.webp 3097w, /assets/man-lacing-shoes-3097x1936.jpg 3097w"
 ---
 
 Let's face it, having your own trainer to help keep you motivated
@@ -218,7 +218,7 @@ your workout plan.
 
 ### Try out Calisthenics workouts
 
- Calisthenics is by far the cheapest option for anyone looking to
+Calisthenics is by far the cheapest option for anyone looking to
 build serious muscle. The whole principle behind it is working out
 with just the weight of your body, allowing you to become very
 explosive and gain unreal body control. This may sound limiting but
@@ -228,7 +228,7 @@ calisthenics is by working different variations of traditional
 workouts like pull ups and push ups to increasingly stress the
 muscle group it targets.
 
- The gains come from the number of reps/sets and the difficulty of
+The gains come from the number of reps/sets and the difficulty of
 the variation of the exercise you're capable of doing. This differs
 from strength training where you really just want to be in a low rep
 range close, lifting close to your one rep max. When your body is
@@ -236,7 +236,7 @@ your only weight you have to get a little creative. Really, if you
 don’t have other equipment that is all you need to get strong. If
 you don’t believe me check out [this video.](https://www.youtube.com/watch?v=kuS4iqIq_Xk)
 
-[![This shows the how truely limitless calistenics can be. These strong but lean men are all at a park together preforming freestyle routine of musles-ups, bar spins, flips, reverse bar spin, etc. All this built up from the strength and mobilty they calistenics gave them. which is truly remarkable](/assets/youtube-video-thumbnail-nyc-calistenics.jpg)](https://www.youtube.com/watch?v=kuS4iqIq_Xk)
+[![This shows the how truly limitless calisthenics can be. These strong but lean men are all at a park together preforming freestyle routine of muscle-ups, bar spins, flips, reverse bar spin, etc. All this built up from the strength and mobility they calisthenics gave them. which is truly remarkable](/assets/youtube-video-thumbnail-nyc-calistenics.jpg)](https://www.youtube.com/watch?v=kuS4iqIq_Xk)
 
 ### Build your own Home Gym
 
@@ -359,9 +359,9 @@ and never need replacement.
 
 ### Get a membership at local gym
 
- The last option is going to your local commercial gym. If you go to
+The last option is going to your local commercial gym. If you go to
 neighborhood Planet Fitness or Fit4less you can start for as little
-as *$16.25 a month.
+as \*$16.25 a month.
 
 You will also have so much more options in terms of equipment making
 it much better if you are looking for variety and don't have space
@@ -398,6 +398,6 @@ There is no best way for everyone, for you it may work best to do a
 little of them all. But you need to try it out to learn what works
 for you.
 
-*Note: most cheap gyms have an activations fee of $50, so factor
+\*Note: most cheap gyms have an activations fee of $50, so factor
 that into your decision. These prices have been given based on my
 location so do some research to see what you local offerings are.
