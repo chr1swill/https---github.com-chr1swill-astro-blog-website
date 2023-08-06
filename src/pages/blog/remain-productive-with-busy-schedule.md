@@ -4,7 +4,7 @@ title: "How I remain productive with a busy Schedule: Prioritization tips to mak
 author: " Mr. Williams"
 date: "06.08.2023"
 description: "In today's fast-paced world, juggling multiple responsibilities and commitments has become the norm. With a completely packed schedule, it can be challenging to stay productive and accomplish everything on our to-do list. However, by implementing effective strategies and prioritizing tasks, it is possible to maintain productivity even in the midst of a hectic schedule."
-href: "/blog/post-2"
+href: "/blog/remain-productive-with-busy-schedule"
 image: "/assets/book-page-title-productivity.jpg"
 imageALT: "book opened on a page that display the title 'Productivity'"
 imageSrcset: " /assets/book-page-title-productivity-640x426.jpg 640w, /assets/book-page-title-productivity.jpg 1920w, /assets/book-page-title-productivity-2400x1600.jpg 2400w"
