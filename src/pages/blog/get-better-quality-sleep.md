@@ -4,7 +4,7 @@ title: " How I Get the Sleep Others Dream About: How to Make the Most Out of You
 author: " Mr. Williams"
 date: "07.31.2023"
 description: "Sleep is one of those things we all seem to forget about unless we are not getting enough of it. It really stinks to wake up tired without knowing the root. That is why I’m going to pass on all I have learned about getting a good night's rest in the hopes that you can wake up feeling as good as I do.  But first, let’s start with what I like to consider the basics of slumber and build from there."
-href: "/blog/post-2"
+href: "/blog/get-better-quality-sleep"
 image: "/assets/star-night-glowing-tent-1920x1280.jpg"
 imageALT: "Man on the side of the street lacing up his bright colored running shoes"
 imageSrcset: " /assets/star-night-glowing-tent-640x427.jpg 640w, /assets/star-night-glowing-tent-1920x1280.jpg 1920w, /assets/star-night-glowing-tent-2400x1600.jpg 2400w"
