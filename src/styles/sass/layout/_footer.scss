@@ -12,7 +12,6 @@
   border-radius: var(--br-master) var(--br-master) 0px 0px;
 }
 
-
 /* Styles for the embedded signup form */
 #mc_embed_signup {
   font-family: var(--default-font);
@@ -32,7 +31,7 @@
 
 /* Styles for the field group container */
 .mc-field-group,
-.optionalParent{
+.optionalParent {
   /* Ensure the field group container takes up the full width */
   max-width: 100%;
   display: grid;
@@ -64,7 +63,6 @@ label {
   background-color: var(--clr-primary);
   border-radius: var(--border-radius);
   transition: background-color var(--transition-time) ease;
-
 }
 
 /* Styles for the subscribe button on hover */
