@@ -172,7 +172,10 @@ main) {
   gap: 1rem;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   text-transform: capitalize;
 }
 
@@ -206,6 +209,13 @@ h4 {
 }
 
 p {
+  font-family: var(--ff-base);
+  font-weight: var(--fw-500);
+  font-size: var(--fs-100);
+  color: var(--clr-text);
+}
+
+ul {
   font-family: var(--ff-base);
   font-weight: var(--fw-500);
   font-size: var(--fs-100);
