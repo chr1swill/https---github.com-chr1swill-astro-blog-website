@@ -7,7 +7,6 @@ export default defineConfig({
 		// Add more routes as needed
 	],
 	mount: {
-		public: "/",
 		src: "/_dist_",
 		// Add more mount points as needed
 	},
