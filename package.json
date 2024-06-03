@@ -1,10 +1,13 @@
 {
   "name": "mr-williams-blog-website",
   "version": "1.0.0",
-  "description": "Just working on those frontend skills by working on a blog website that can be scaled easily for content heavy sites.",
+  "description": "My personal website where I share all about me",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "",
+    "css:watch": "npx tailwindcss -i ./src/css/input.css -o ./src/css/styles.css --watch",
+    "css:build": "npx tailwindcss -i ./src/css/input.css -o ./src/css/styles.css",
+    "css:prod": "npx tailwindcss -i ./src/css/input.css -o ./src/css/styles.css --minify"
   },
   "keywords": [],
   "author": "",
