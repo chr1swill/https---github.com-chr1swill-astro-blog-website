@@ -1,28 +1,12 @@
 {
-  "name": "shining-star",
-  "type": "module",
-  "version": "0.0.1",
-  "description": "SASS compile|autoprefix|minimize and live-reload dev server using Browsersync for static HTML",
-  "main": "public/index.html",
-  "author": "5t3ph",
+  "name": "mr-williams-blog-website",
+  "version": "1.0.0",
+  "description": "Just working on those frontend skills by working on a blog website that can be scaled easily for content heavy sites.",
+  "main": "index.js",
   "scripts": {
-    "dev": "astro dev", 
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "dist:preview": "http-server dist",
-    "watch:sass": "sass --watch src/styles/sass/main.scss:public/css/main.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "@astrojs/mdx": "^0.19.7",
-    "astro": "^2.7.2",
-    "autoprefixer": "^10.4.2",
-    "browser-sync": "^2.27.7",
-    "copyfiles": "^2.4.1",
-    "cssnano": "^5.0.17",
-    "npm-run-all": "^4.1.5",
-    "onchange": "^7.1.0",
-    "postcss-cli": "^9.1.0",
-    "sass": "^1.49.8"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
