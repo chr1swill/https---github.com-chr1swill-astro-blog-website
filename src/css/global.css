@@ -5,32 +5,32 @@
 @media (prefers-color-scheme: light) {
 	:root {
 		--value-text: 12, 23, 29;
-		--clr-text: rgb(var(--value-text));
-		--clr-text-op: rgba(var(--value-text), 0.6);
+		--text: rgb(var(--value-text));
+		--text-op: rgba(var(--value-text), 0.6);
 
 		--value-primary: 52, 146, 213;
-		--clr-primary: rgb(var(--value-primary));
-		--clr-surface: rgba(var(--value-primary), 0.1);
+		--primary: rgb(var(--value-primary));
+		--surface: rgba(var(--value-primary), 0.1);
 
-		--clr-secondary: rgb(123, 191, 239);
-		--clr-accent: rgb(85, 179, 247);
-		--clr-background: rgb(244, 247, 251);
+		--secondary: rgb(123, 191, 239);
+		--accent: rgb(85, 179, 247);
+		--background: rgb(244, 247, 251);
 	}
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--value-text: 226, 237, 243;
-		--clr-text: rgb(var(--value-text));
-		--clr-text-op: rgba(var(--value-text), 0.6);
+		--text: rgb(var(--value-text));
+		--text-op: rgba(var(--value-text), 0.6);
 
 		--value-primary: 42, 136, 203;
-		--clr-primary: rgb(var(--value-primary));
-		--clr-surface: rgba(var(--value-primary), 0.1);
+		--primary: rgb(var(--value-primary));
+		--surface: rgba(var(--value-primary), 0.1);
 
-		--clr-secondary: rgb(16, 84, 132);
-		--clr-accent: rgb(8, 103, 170);
-		--clr-background: rgb(4, 7, 11);
+		--secondary: rgb(16, 84, 132);
+		--accent: rgb(8, 103, 170);
+		--background: rgb(4, 7, 11);
 	}
 }
 
