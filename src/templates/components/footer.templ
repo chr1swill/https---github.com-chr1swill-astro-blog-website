@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-templ Footer(pathToGitHubLogo, pathToXLogo, pathToFakeCopyRight string) {
+templ Footer() {
 	<footer 
         class="w-full h-fit flex flex-col gap-8 items-center justify-center"
     >
@@ -24,14 +24,14 @@ templ Footer(pathToGitHubLogo, pathToXLogo, pathToFakeCopyRight string) {
 			<div
                 class="w-fit h-fit flex flex-row items-center justify-center gap-3"
             >
-				<img src={ pathToXLogo } alt="The X logo"
+				<img src="images/logo-x.svg" alt="The X logo"
                     decoding="async"
                     loading="lazy"
                     width="32px"
                     height="32px"
                     class="opacity-60"
                 />
-				<img src={ pathToGitHubLogo } alt="The Github logo"
+				<img src="images/logo-github.svg" alt="The Github logo"
                     decoding="async"
                     loading="lazy"
                     width="32px"
@@ -46,7 +46,7 @@ templ Footer(pathToGitHubLogo, pathToXLogo, pathToFakeCopyRight string) {
 			<span>All Rights Are Yours.</span>
 			<span>
 				<img
-					src={ pathToFakeCopyRight }
+					src="images/initials-as-fake-copyright.svg"
                     decoding="async"
                     loading="lazy"
 					alt="This is a decoratorative mark of two circle with the initials C W inside them."

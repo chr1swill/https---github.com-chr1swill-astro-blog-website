@@ -15,7 +15,7 @@ import (
 	"time"
 )
 
-func Footer(pathToGitHubLogo, pathToXLogo, pathToFakeCopyRight string) templ.Component {
+func Footer() templ.Component {
 	return templ.ComponentFunc(func(ctx context.Context, templ_7745c5c3_W io.Writer) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templ_7745c5c3_W.(*bytes.Buffer)
 		if !templ_7745c5c3_IsBuffer {
@@ -44,55 +44,16 @@ func Footer(pathToGitHubLogo, pathToXLogo, pathToFakeCopyRight string) templ.Com
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</article><div class=\"w-fit h-fit flex flex-row items-center justify-center gap-3\"><img src=\"")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</article><div class=\"w-fit h-fit flex flex-row items-center justify-center gap-3\"><img src=\"images/logo-x.svg\" alt=\"The X logo\" decoding=\"async\" loading=\"lazy\" width=\"32px\" height=\"32px\" class=\"opacity-60\"> <img src=\"images/logo-github.svg\" alt=\"The Github logo\" decoding=\"async\" loading=\"lazy\" width=\"32px\" height=\"32px\" class=\"opacity-60\"></div></section><aside class=\"w-full h-fit flex flex-row items-center justify-start gap-1 font-medium text-xs text-text-op\"><span>All Rights Are Yours.</span> <span><img src=\"images/initials-as-fake-copyright.svg\" decoding=\"async\" loading=\"lazy\" alt=\"This is a decoratorative mark of two circle with the initials C W inside them.\" width=\"33px\" height=\"15px\"></span> <span>Christian Williams ")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
 		var templ_7745c5c3_Var2 string
-		templ_7745c5c3_Var2, templ_7745c5c3_Err = templ.JoinStringErrs(pathToXLogo)
-		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/components/footer.templ`, Line: 27, Col: 26}
-		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var2))
-		if templ_7745c5c3_Err != nil {
-			return templ_7745c5c3_Err
-		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("\" alt=\"The X logo\" decoding=\"async\" loading=\"lazy\" width=\"32px\" height=\"32px\" class=\"opacity-60\"> <img src=\"")
-		if templ_7745c5c3_Err != nil {
-			return templ_7745c5c3_Err
-		}
-		var templ_7745c5c3_Var3 string
-		templ_7745c5c3_Var3, templ_7745c5c3_Err = templ.JoinStringErrs(pathToGitHubLogo)
-		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/components/footer.templ`, Line: 34, Col: 31}
-		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var3))
-		if templ_7745c5c3_Err != nil {
-			return templ_7745c5c3_Err
-		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("\" alt=\"The Github logo\" decoding=\"async\" loading=\"lazy\" width=\"32px\" height=\"32px\" class=\"opacity-60\"></div></section><aside class=\"w-full h-fit flex flex-row items-center justify-start gap-1 font-medium text-xs text-text-op\"><span>All Rights Are Yours.</span> <span><img src=\"")
-		if templ_7745c5c3_Err != nil {
-			return templ_7745c5c3_Err
-		}
-		var templ_7745c5c3_Var4 string
-		templ_7745c5c3_Var4, templ_7745c5c3_Err = templ.JoinStringErrs(pathToFakeCopyRight)
-		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/components/footer.templ`, Line: 49, Col: 30}
-		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var4))
-		if templ_7745c5c3_Err != nil {
-			return templ_7745c5c3_Err
-		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("\" decoding=\"async\" loading=\"lazy\" alt=\"This is a decoratorative mark of two circle with the initials C W inside them.\" width=\"33px\" height=\"15px\"></span> <span>Christian Williams ")
-		if templ_7745c5c3_Err != nil {
-			return templ_7745c5c3_Err
-		}
-		var templ_7745c5c3_Var5 string
-		templ_7745c5c3_Var5, templ_7745c5c3_Err = templ.JoinStringErrs(fmt.Sprintf("%d", time.Now().Year()))
+		templ_7745c5c3_Var2, templ_7745c5c3_Err = templ.JoinStringErrs(fmt.Sprintf("%d", time.Now().Year()))
 		if templ_7745c5c3_Err != nil {
 			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/components/footer.templ`, Line: 59, Col: 51}
 		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var5))
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var2))
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
