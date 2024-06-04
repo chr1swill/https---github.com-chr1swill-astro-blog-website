@@ -6,7 +6,7 @@ import (
 
 templ HomePage(pathToHeaderImage, pathToXLogo, pathToGitHubLogo, pathToFakeCopyRight string) {
 	<div
-        class=""
+        class="w-full h-full flex flex-col gap-8"
     >
 		@c.Header(pathToHeaderImage)
 		<main>
@@ -24,10 +24,12 @@ templ HomePage(pathToHeaderImage, pathToXLogo, pathToGitHubLogo, pathToFakeCopyR
 				</article>
 				@c.Divider()
 			</section>
-			<section>
-				<h2>Blog</h2>
-				<h2>Projects</h2>
-			</section>
+            <article>
+                <h2>Blog</h2>
+            </article>
+            <article>
+                <h2>Projects</h2>
+            </article>
 		</main>
 		@c.Footer(pathToXLogo, pathToGitHubLogo, pathToFakeCopyRight)
 	</div>
