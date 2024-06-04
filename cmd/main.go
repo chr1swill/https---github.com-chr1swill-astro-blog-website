@@ -3,9 +3,10 @@ package main
 import (
 	"context"
 	"os"
-    "mrwill/src/templates/"
+    "mrwill/src/templates/views"
 )
 
 func main() {
-    com.Render(context.Background(), os.Stdout)
+    hp := views.HomePage("blac", "blag", "blag", "blag")
+    hp.Render(context.Background(), os.Stdout)
 }
