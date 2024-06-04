@@ -27,7 +27,7 @@ func HomePage(pathToHeaderImage, pathToXLogo, pathToGitHubLogo, pathToFakeCopyRi
 			templ_7745c5c3_Var1 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<div class=\"\">")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<div class=\"w-full h-full flex flex-col gap-8\">")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -51,7 +51,7 @@ func HomePage(pathToHeaderImage, pathToXLogo, pathToGitHubLogo, pathToFakeCopyRi
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</section><section><h2>Blog</h2><h2>Projects</h2></section></main>")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</section><article><h2>Blog</h2></article><article><h2>Projects</h2></article></main>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

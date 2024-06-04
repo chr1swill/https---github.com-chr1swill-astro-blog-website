@@ -2,11 +2,26 @@ package main
 
 import (
 	"context"
+	"log"
+	"mrwill/src/templates/views"
 	"os"
-    "mrwill/src/templates/views"
 )
 
 func main() {
-    hp := views.HomePage("blac", "blag", "blag", "blag")
-    hp.Render(context.Background(), os.Stdout)
+    if _, err := os.Stat("dist"); os.IsNotExist(err) {
+        err := os.Mkdir("dist", os.ModePerm)
+        if err != nil {
+            log.Fatalf("Could not create dist: %v", err)
+        }
+    }
+
+    homePage, err := os.Create("dist/index.html")
+    if err != nil {
+        log.Fatalf("Could not create dist/index.html: %v", err)
+    }
+    
+    err = views.HomePage("blac", "blag", "blag", "blag").Render(context.Background(), homePage)
+    if err != nil {
+        log.Fatalf("Could not render template to dist/index.html: %v", err)
+    }
 }
