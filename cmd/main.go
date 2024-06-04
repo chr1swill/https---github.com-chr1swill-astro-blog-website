@@ -3,10 +3,9 @@ package main
 import (
 	"context"
 	"os"
-	"mrwill/src/templates/components"
+    "mrwill/src/templates"
 )
 
 func main() {
-    comp := templates.Hello("name")
-    comp.Render(context.Background(), os.Stdout)
+    com.Render(context.Background(), os.Stdout)
 }

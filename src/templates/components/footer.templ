@@ -1,19 +1,63 @@
-package templates
+package components 
 
-import "time"
-import "fmt"
+import (
+	"time"
+	"fmt"
+)
 
-templ Footer(pathToGitHubLogo, pathToXLogo string) {
-    <footer>
-        @Divider()
-        <section>
-            <p>Subscibe to get future blog post via email.</p>
-            @EmailInput("Type your email...", "footer-form-1")
-            <div>
-                <img src={ pathToXLogo } alt="The X logo">
-                <img src={ pathToGitHubLogo } alt="The Github logo">
-            </div>
-        </section>
-        <aside>All Rights Are Yours. Christian Williams { fmt.Sprintf("%d", time.Now().Year()) }.</aside>
-    </footer>
+templ Footer(pathToGitHubLogo, pathToXLogo, pathToFakeCopyRight string) {
+	<footer 
+        class="w-full h-fit flex flex-col gap-8 items-center justify-center"
+    >
+		@Divider()
+		<section
+            class="w-full h-fit flex flex-col gap-5"
+        >
+            <article 
+                class="w-full h-fit flex flex-col items-center justify-center gap-4"
+            >
+                <p
+                    class="font-medium text-base text-text"
+                >Subscibe to get future blog post via email.</p>
+                @EmailInput("Type your email...", "footer-form-1")
+            </article>
+			<div
+                class="w-fit h-fit flex flex-row items-center justify-center gap-3"
+            >
+				<img src={ pathToXLogo } alt="The X logo"
+                    decoding="async"
+                    loading="lazy"
+                    width="32px"
+                    height="32px"
+                    class="opacity-60"
+                />
+				<img src={ pathToGitHubLogo } alt="The Github logo"
+                    decoding="async"
+                    loading="lazy"
+                    width="32px"
+                    height="32px"
+                    class="opacity-60"
+                />
+			</div>
+		</section>
+		<aside
+            class="w-full h-fit flex flex-row items-center justify-start gap-1 font-medium text-xs text-text-op"
+        >
+			<span>All Rights Are Yours.</span>
+			<span>
+				<img
+					src={ pathToFakeCopyRight }
+                    decoding="async"
+                    loading="lazy"
+					alt="This is a decoratorative mark of two circle with the initials C W inside them."
+                    width="33px"
+                    height="15px"
+				/>
+			</span>
+			<span>
+				Christian
+				Williams { fmt.Sprintf("%d", time.Now().Year()) }.
+			</span>
+		</aside>
+	</footer>
 }

@@ -1,6 +1,45 @@
-package templates
+package layouts
 
-templ MainLayout(content string) {
+import (
+"strings"
+)
 
-    { content }
+templ MainLayout(title, description, pathToHeadShotImage, pageUrl string, content templ.Component, keywords []string) {
+if len(description) > 200 {
+panic("Description string provide was to long, has length of: %d", len(description))
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{ title }</title>
+
+    <meta name="description" content={ description }>
+    <meta name="keywords" content={ strings.Join(keywords, " " ) }>
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content={ title }>
+    <meta property="og:type" content="article">
+    <meta property="og:description" content={ description }>
+    <meta property="og:image" content={ pathToHeadShotImage }>
+    <meta property="og:url" content={ pageUrl }>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@chr1stianwill">
+    <meta name="twitter:title" content={ title }>
+    <meta name="twitter:description" content={ description }>
+    <meta name="twitter:image" content={ pathToHeadShotImage }>
+    <meta name="author" content="Christian Williams">
+</head>
+
+<body>
+    // includes header main footer
+    @content
+</body>
+
+</html>
 }

@@ -1,0 +1,34 @@
+package views
+
+import (
+	c "mrwill/src/templates/components"
+)
+
+templ HomePage(pathToHeaderImage, pathToXLogo, pathToGitHubLogo, pathToFakeCopyRight string) {
+	<div
+        class=""
+    >
+		@c.Header(pathToHeaderImage)
+		<main>
+			<section class="w-full h-fit flex flex-col gap-8">
+				<article class="w-full h-fit flex flex-col gap-4">
+					<p>
+						I make apps the feel native, but on the web. Rich user experiences, low latency interaction, and
+						sites that lend to high conversion are my bread and butter.
+					</p>
+					<p>
+						I make apps the feel native, but on the web. Rich user experiences, low latency interaction, and
+						sites that lend to high conversion are my bread and butter.
+					</p>
+					@c.EmailInput("Type your email...", "email-1")
+				</article>
+				@c.Divider()
+			</section>
+			<section>
+				<h2>Blog</h2>
+				<h2>Projects</h2>
+			</section>
+		</main>
+		@c.Footer(pathToXLogo, pathToGitHubLogo, pathToFakeCopyRight)
+	</div>
+}
