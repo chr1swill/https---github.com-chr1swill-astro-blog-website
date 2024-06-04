@@ -53,7 +53,7 @@ func MainLayout(title, description, pageUrl string, content templ.Component, key
 		var templ_7745c5c3_Var3 string
 		templ_7745c5c3_Var3, templ_7745c5c3_Err = templ.JoinStringErrs(description)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 21, Col: 50}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 22, Col: 50}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var3))
 		if templ_7745c5c3_Err != nil {
@@ -66,7 +66,7 @@ func MainLayout(title, description, pageUrl string, content templ.Component, key
 		var templ_7745c5c3_Var4 string
 		templ_7745c5c3_Var4, templ_7745c5c3_Err = templ.JoinStringErrs(strings.Join(keywords, " "))
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 22, Col: 64}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 23, Col: 64}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var4))
 		if templ_7745c5c3_Err != nil {
@@ -79,7 +79,7 @@ func MainLayout(title, description, pageUrl string, content templ.Component, key
 		var templ_7745c5c3_Var5 string
 		templ_7745c5c3_Var5, templ_7745c5c3_Err = templ.JoinStringErrs(title)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 25, Col: 45}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 27, Col: 45}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var5))
 		if templ_7745c5c3_Err != nil {
@@ -92,7 +92,7 @@ func MainLayout(title, description, pageUrl string, content templ.Component, key
 		var templ_7745c5c3_Var6 string
 		templ_7745c5c3_Var6, templ_7745c5c3_Err = templ.JoinStringErrs(description)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 27, Col: 57}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 29, Col: 57}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var6))
 		if templ_7745c5c3_Err != nil {
@@ -105,7 +105,7 @@ func MainLayout(title, description, pageUrl string, content templ.Component, key
 		var templ_7745c5c3_Var7 string
 		templ_7745c5c3_Var7, templ_7745c5c3_Err = templ.JoinStringErrs(pageUrl)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 29, Col: 45}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 31, Col: 45}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var7))
 		if templ_7745c5c3_Err != nil {
@@ -118,7 +118,7 @@ func MainLayout(title, description, pageUrl string, content templ.Component, key
 		var templ_7745c5c3_Var8 string
 		templ_7745c5c3_Var8, templ_7745c5c3_Err = templ.JoinStringErrs(title)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 33, Col: 46}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 36, Col: 46}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var8))
 		if templ_7745c5c3_Err != nil {
@@ -131,13 +131,13 @@ func MainLayout(title, description, pageUrl string, content templ.Component, key
 		var templ_7745c5c3_Var9 string
 		templ_7745c5c3_Var9, templ_7745c5c3_Err = templ.JoinStringErrs(description)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 34, Col: 58}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/layouts/MainLayout.templ`, Line: 37, Col: 58}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var9))
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("\"><meta name=\"twitter:image\" content=\"images/headshot/headshot-christian-400x400.jpg\"><meta name=\"author\" content=\"Christian Williams\"></head><body>")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("\"><meta name=\"twitter:image\" content=\"images/headshot/headshot-christian-400x400.jpg\"><meta name=\"author\" content=\"Christian Williams\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin><link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap\" rel=\"stylesheet\"><link rel=\"stylesheet\" href=\"css/styles.css\"></head><body>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

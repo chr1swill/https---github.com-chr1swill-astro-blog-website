@@ -18,22 +18,34 @@ panic("Description string provide was to long, has length of: %d", len(descripti
 
     <title>{ title }</title>
 
+    // seo
     <meta name="description" content={ description }>
     <meta name="keywords" content={ strings.Join(keywords, " " ) }>
     <meta name="robots" content="index, follow">
 
+    // og images
     <meta property="og:title" content={ title }>
     <meta property="og:type" content="article">
     <meta property="og:description" content={ description }>
     <meta property="og:image" content="images/headshot/headshot-christian-400x400.jpg">
     <meta property="og:url" content={ pageUrl }>
 
+    // twitter card
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@chr1stianwill">
     <meta name="twitter:title" content={ title }>
     <meta name="twitter:description" content={ description }>
     <meta name="twitter:image" content="images/headshot/headshot-christian-400x400.jpg">
     <meta name="author" content="Christian Williams">
+
+    // fonts
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    // styles
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
