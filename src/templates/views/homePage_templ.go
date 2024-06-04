@@ -35,7 +35,7 @@ func HomePage(pathToHeaderImage, pathToXLogo, pathToGitHubLogo, pathToFakeCopyRi
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<main><section class=\"w-full h-fit flex flex-col gap-8\"><article class=\"w-full h-fit flex flex-col gap-4\"><p>I make apps the feel native, but on the web. Rich user experiences, low latency interaction, and sites that lend to high conversion are my bread and butter.</p><p>I make apps the feel native, but on the web. Rich user experiences, low latency interaction, and sites that lend to high conversion are my bread and butter.</p>")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<main><section class=\"w-full h-fit flex flex-col gap-8\"><article class=\"w-full h-fit flex flex-col gap-4\"><p>I make apps the feel native, but on the web. Rich user experiences, low latency interaction, and sites that lend to high conversion are my bread and butter.</p><p>Subscribe to get future blog posts via email.</p>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
