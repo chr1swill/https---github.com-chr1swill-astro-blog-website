@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"os"
-    "mrwill/src/templates"
+    "mrwill/src/templates/"
 )
 
 func main() {
