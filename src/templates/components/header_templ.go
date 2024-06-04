@@ -23,20 +23,7 @@ func Header(imageSource string) templ.Component {
 			templ_7745c5c3_Var1 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<header class=\"w-full h-11 flex flex-row gap-2\"><img src=\"")
-		if templ_7745c5c3_Err != nil {
-			return templ_7745c5c3_Err
-		}
-		var templ_7745c5c3_Var2 string
-		templ_7745c5c3_Var2, templ_7745c5c3_Err = templ.JoinStringErrs(imageSource)
-		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `src/templates/components/header.templ`, Line: 8, Col: 20}
-		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var2))
-		if templ_7745c5c3_Err != nil {
-			return templ_7745c5c3_Err
-		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("\" alt=\"A headshot of Christian wear a white button up shirt infront of a navy blue backdrop\" class=\"border-none rounded-full\"><p class=\"font-bold text-text text-[28px]\">I'm Christian Williams</p></header>")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<header class=\"w-full h-fit flex flex-row gap-2\"><picture><source type=\"image/webp\" src=\"images/headshot/headshot-christian-400x400.webp\"> <img src=\"images/headshot/headshot-christian-400x400.jpg\" alt=\"A headshot of Christian wearing a white button up shirt infront of a navy blue backdrop\" width=\"45px\" height=\"45px\" class=\"border-none rounded-full\"></picture><p class=\"font-bold text-text text-[28px]\">I'm Christian Williams</p></header>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
