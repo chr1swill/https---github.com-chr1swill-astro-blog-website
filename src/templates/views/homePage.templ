@@ -4,9 +4,9 @@ import (
 	c "mrwill/src/templates/components"
 )
 
-templ HomePage(pathToHeaderImage, pathToXLogo, pathToGitHubLogo, pathToFakeCopyRight string) {
+templ HomePage() {
 	<div class="w-full h-full flex flex-col gap-8">
-		@c.Header(pathToHeaderImage)
+		@c.Header()
 		<main>
 			<section class="w-full h-fit flex flex-col gap-8">
 				<article class="w-full h-fit flex flex-col gap-4">
@@ -28,6 +28,6 @@ templ HomePage(pathToHeaderImage, pathToXLogo, pathToGitHubLogo, pathToFakeCopyR
 				<h2>Projects</h2>
 			</article>
 		</main>
-		@c.Footer(pathToXLogo, pathToGitHubLogo, pathToFakeCopyRight)
+		@c.Footer()
 	</div>
 }

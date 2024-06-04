@@ -14,7 +14,7 @@ import (
 	c "mrwill/src/templates/components"
 )
 
-func HomePage(pathToHeaderImage, pathToXLogo, pathToGitHubLogo, pathToFakeCopyRight string) templ.Component {
+func HomePage() templ.Component {
 	return templ.ComponentFunc(func(ctx context.Context, templ_7745c5c3_W io.Writer) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templ_7745c5c3_W.(*bytes.Buffer)
 		if !templ_7745c5c3_IsBuffer {
@@ -31,7 +31,7 @@ func HomePage(pathToHeaderImage, pathToXLogo, pathToGitHubLogo, pathToFakeCopyRi
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = c.Header(pathToHeaderImage).Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = c.Header().Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -55,7 +55,7 @@ func HomePage(pathToHeaderImage, pathToXLogo, pathToGitHubLogo, pathToFakeCopyRi
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = c.Footer(pathToXLogo, pathToGitHubLogo, pathToFakeCopyRight).Render(ctx, templ_7745c5c3_Buffer)
+		templ_7745c5c3_Err = c.Footer().Render(ctx, templ_7745c5c3_Buffer)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
