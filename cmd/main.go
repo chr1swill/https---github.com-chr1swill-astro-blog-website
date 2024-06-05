@@ -25,10 +25,11 @@ func main() {
         }
     }
 
-    homePage, err := os.Create("dist/index.html")
+    homePageFile, err := os.Create("dist/index.html")
     if err != nil {
         log.Fatalf("Could not create dist/index.html: %v", err)
     }
+    defer homePageFile.Close()
 
     hpp := MainLayoutParams{
         title: "Website That feel Native | Christian Williams",
@@ -38,7 +39,7 @@ func main() {
         keywords: []string{"websites", "user experience", "conversions"},
     }
 
-    err = layouts.MainLayout(hpp.title, hpp.description, hpp.pageUrl, hpp.content, hpp.keywords).Render(context.Background(), homePage)
+    err = layouts.MainLayout(hpp.title, hpp.description, hpp.pageUrl, hpp.content, hpp.keywords).Render(context.Background(), homePageFile)
     if err != nil {
         log.Fatalf("Could not render template to dist/index.html: %v", err)
     }
