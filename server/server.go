@@ -7,6 +7,12 @@ import (
 
 func main() {
 
+    cssFs := http.FileServer(http.Dir("./css"))
+    http.Handle("/css/", cssFs)
+
+    imagesFs := http.FileServer(http.Dir("./images"))
+    http.Handle("/images/", imagesFs)
+
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
         if r.Method != http.MethodGet {
             w.Header().Set("Allow", http.MethodGet)
