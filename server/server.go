@@ -3,14 +3,25 @@ package main
 import (
 	"fmt"
 	"net/http"
+	"path/filepath"
 )
 
 func main() {
-	cssFs := http.FileServer(http.Dir("./css"))
-	http.Handle("/css/", http.StripPrefix("/css/", cssFs))
+	http.HandleFunc("/css/", func(w http.ResponseWriter, r *http.Request) {
+		if r.Method != http.MethodGet {
+			w.Header().Set("Allow", http.MethodGet)
+			http.Error(w, "Method Not Allowed", http.StatusMethodNotAllowed)
+			return
+		}
 
-	imagesFs := http.FileServer(http.Dir("./images"))
-	http.Handle("/images/", http.StripPrefix("/images/", imagesFs))
+		file := "." + r.URL.Path
+		if filepath.Ext(file) == ".css" {
+			w.Header().Set("Content-Type", "text/css")
+		}
+		http.ServeFile(w, r, file)
+	})
+
+	http.Handle("/images/", http.StripPrefix("/images/", http.FileServer(http.Dir("./images"))))
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		if r.Method != http.MethodGet {
