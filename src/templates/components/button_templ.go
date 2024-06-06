@@ -36,7 +36,7 @@ func Button(text, dataId string) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("\" submit class=\"w-min h-min bg-primary font-medium text-lg text-background p-[10px] hover:bg-secondary transition-all ease-out duration-100\">")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("\" submit class=\"w-min h-min bg-primary rounded-lg font-medium text-lg text-background p-[10px] hover:bg-secondary transition-all ease-out duration-100\">")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
