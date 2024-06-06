@@ -36,7 +36,7 @@ func EmailInput(placeholder, formElementDataId string) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("\" action=\"/newsletter-email-submition\" method=\"post\" class=\"w-full h-[58px] rounded-[16px] p-4 bg-background border border-text relative z-0\"><label class=\"w-full h-full z-10\"><span class=\"hidden\">Enter you email into the input then submit the form to subscribe to Christian's newsletter</span> <input type=\"email\" minlength=\"5\" maxlength=\"320\" placeholder=\"")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("\" action=\"/newsletter-email-submition\" method=\"post\" class=\"w-full h-[58px] rounded-[16px] bg-background border border-text relative z-0\"><label class=\"w-full h-full z-10 bg-background\"><span class=\"hidden\">Enter you email into the input then submit the form to subscribe to Christian's newsletter</span> <input type=\"email\" minlength=\"5\" maxlength=\"320\" placeholder=\"")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -49,7 +49,7 @@ func EmailInput(placeholder, formElementDataId string) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("\" class=\"w-full h-full font-light text-text text-sm placeholder:text-text-op\"></label><div class=\"w-min h-min absolute inset-[50% auto 50% 10px] z-20\">")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("\" class=\"w-full h-full font-light text-text text-sm placeholder:text-text-op p-4\"></label><div class=\"w-min h-min absolute inset-[50% auto 50% 10px] z-20\">")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
