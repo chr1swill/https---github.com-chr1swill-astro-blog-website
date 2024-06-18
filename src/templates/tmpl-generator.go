@@ -48,9 +48,15 @@ func main() {
     tmpl = template.New("").Funcs(funcMap)
 
     const templateDir = "./src/templates/"
+
     viewDir := filepath.Join(templateDir, "views")
-    
-    homePageBodyContent, err := tmpl.ParseFiles(viewDir + "home-page.html")
+    homePageBodyContent, err := tmpl.ParseFiles(viewDir + "/" + "home-page.html")
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    layoutDir := filepath.Join(templateDir, "layouts")
+    tmpl, err := tmpl.ParseFiles(layoutDir + "/" + "main-layout.html")
     if err != nil {
         log.Fatal(err)
     }
