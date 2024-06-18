@@ -87,7 +87,7 @@ func main() {
         Keywords: []string{"websites", "user experience", "conversions"},
     }
 
-    err = tmpl.ExecuteTemplate(homePageFile, "main-layout.html", homePageParams)
+    err = tmpl.ExecuteTemplate(homePageFile, "main-layout", homePageParams)
     if err != nil {
         log.Fatalf("Could not render template to dist/index.html: %v", err)
     }
