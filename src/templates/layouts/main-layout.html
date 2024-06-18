@@ -8,19 +8,19 @@
 
     <title>{{.Title}}</title>
 
-    // seo
+    <!-- seo -->
     <meta name="description" content="{{.Description}}">
     <meta name="keywords" content="{{convertKeywordSliceToString .Keywords}}">
     <meta name="robots" content="index, follow">
 
-    // og images
+    <!-- og images -->
     <meta property="og:title" content="{{.Title}}">
     <meta property="og:type" content="article">
     <meta property="og:description" content="{{.Description}}">
     <meta property="og:image" content="images/headshot/headshot-christian-400x400.jpg">
     <meta property="og:url" content="{{.PageUrl}}">
 
-    // twitter card
+    <!-- twitter card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@chr1stianwill">
     <meta name="twitter:title" content="{{.Title}}">
@@ -28,19 +28,19 @@
     <meta name="twitter:image" content="images/headshot/headshot-christian-400x400.jpg">
     <meta name="author" content="Christian Williams">
 
-    // fonts
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
-    // styles
+    <!-- styles -->
     <link rel="stylesheet" href="/css/styles.css">
 
 </head>
 
 <body>
-    // includes header main footer
-    {{ block "content" . }}{{ end }}
+    <!-- includes header main footer -->
+    {{.Content}}
 </body>
 
 </html>

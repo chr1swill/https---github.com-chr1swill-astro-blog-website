@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
 	"html/template"
 	"log"
@@ -41,27 +42,48 @@ type MainLayoutParams struct {
     Keywords []string
 }
 
+
 var tmpl * template.Template
 
+func loadTemplate(patterns []string) {
+
+	funcMap := createFuncMap()
+
+	tmpl = template.New("").Funcs(funcMap)
+
+	for _, pattern := range patterns {
+
+		matches, err := filepath.Glob(pattern)
+		if err != nil {
+			log.Fatalf("Failed to glob pattern %s: %v", pattern, err)
+		}
+
+		if matches == nil {
+			log.Fatalf("No templates found matching pattern: %s", pattern)
+		}
+
+		for _, match := range matches {
+
+			_, err := tmpl.ParseFiles(match)
+			if err != nil {
+				log.Fatalf("Failed to parse template %s: %v", match, err)
+			}
+		}
+	}
+}
+
 func main() {
-    funcMap := createFuncMap()
-    tmpl = template.New("").Funcs(funcMap)
+    projectRoot := filepath.Join(".")
+    templateDir := filepath.Join(projectRoot, "src", "templates")
+    viewDir := filepath.Join(templateDir, "views", "*.html")
+    layoutDir := filepath.Join(templateDir, "layouts", "*.html")
+    componentsDir := filepath.Join(templateDir, "components", "*.html")
 
-    const templateDir = "./src/templates/"
+    paths := []string{viewDir, layoutDir, componentsDir}
+    loadTemplate(paths)
 
-    viewDir := filepath.Join(templateDir, "views")
-    homePageBodyContent, err := os.ReadFile(filepath.Join(viewDir, "home-page.html"))
-    if err != nil {
-        log.Fatal(err)
-    }
-
-    tmpl, err := tmpl.ParseGlob(filepath.Join(templateDir, "components", "*.html"))
-    if err != nil {
-        log.Fatal(err)
-    }
-
-    layoutDir := filepath.Join(templateDir, "layouts")
-    tmpl, err = tmpl.ParseFiles(filepath.Join(layoutDir, "main-layout.html"))
+    var homePageContent bytes.Buffer
+    err := tmpl.ExecuteTemplate(&homePageContent, "home-page.html", nil)
     if err != nil {
         log.Fatal(err)
     }
@@ -83,9 +105,14 @@ func main() {
         Title: "Website That feel Native | Christian Williams",
         Description: "I create Website that provide a rich experience to your customer that will convert into sales for you buisness",
         PageUrl: "https://mrwill.ca",
-        Content: template.HTML(homePageBodyContent),
+        Content: template.HTML(homePageContent.String()),
         Keywords: []string{"websites", "user experience", "conversions"},
     }
+
+    // Check template names
+	for _, t := range tmpl.Templates() {
+		fmt.Println("Template name:", t.Name())
+	}
 
     err = tmpl.ExecuteTemplate(homePageFile, "main-layout", homePageParams)
     if err != nil {
