@@ -37,7 +37,7 @@ type MainLayoutParams struct {
     Title string
     Description string
     PageUrl string
-    Content * template.Template
+    Content template.HTML
     Keywords []string
 }
 
@@ -50,13 +50,18 @@ func main() {
     const templateDir = "./src/templates/"
 
     viewDir := filepath.Join(templateDir, "views")
-    homePageBodyContent, err := tmpl.ParseFiles(viewDir + "/" + "home-page.html")
+    homePageBodyContent, err := os.ReadFile(filepath.Join(viewDir, "home-page.html"))
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    tmpl, err := tmpl.ParseGlob(filepath.Join(templateDir, "components", "*.html"))
     if err != nil {
         log.Fatal(err)
     }
 
     layoutDir := filepath.Join(templateDir, "layouts")
-    tmpl, err := tmpl.ParseFiles(layoutDir + "/" + "main-layout.html")
+    tmpl, err = tmpl.ParseFiles(filepath.Join(layoutDir, "main-layout.html"))
     if err != nil {
         log.Fatal(err)
     }
@@ -78,7 +83,7 @@ func main() {
         Title: "Website That feel Native | Christian Williams",
         Description: "I create Website that provide a rich experience to your customer that will convert into sales for you buisness",
         PageUrl: "https://mrwill.ca",
-        Content: homePageBodyContent,
+        Content: template.HTML(homePageBodyContent),
         Keywords: []string{"websites", "user experience", "conversions"},
     }
 

@@ -19,10 +19,7 @@
     <div 
            class="w-min h-min absolute inset-[50% auto 50% 10px] z-20"
            >
-           {{ $buttonText }}
-           {{ if not (index $button "ButtonText") }}
-                {{ $button = dict "ButtonText" "Subscribe" }}
-           {{ end }}
+           {{ $buttonText := "Subscribe"}}
            {{ template "button.html" $buttonText }}
     </div>
 </form>
