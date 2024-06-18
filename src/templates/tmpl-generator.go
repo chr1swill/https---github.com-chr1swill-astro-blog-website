@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"html/template"
 	"log"
 	"math/rand"
@@ -13,11 +14,11 @@ import (
 func randomId() string {
     max := 999999
     min := 100000
-    return string(rand.Intn(max - min))
+    return fmt.Sprintf("%d", rand.Intn(max - min))
 }
 
 func currentYear() string {
-    return string(time.Now().Year())
+    return fmt.Sprintf("%d", time.Now().Year())
 }
 
 func convertKeywordsSliceToString(keywords []string) string {
@@ -44,13 +45,12 @@ var tmpl * template.Template
 
 func main() {
     funcMap := createFuncMap()
-
     tmpl = template.New("").Funcs(funcMap)
 
     const templateDir = "./src/templates/"
     viewDir := filepath.Join(templateDir, "views")
     
-    homePageBodyContent, err := tmpl.Parse(viewDir + "home-page.html")
+    homePageBodyContent, err := tmpl.ParseFiles(viewDir + "home-page.html")
     if err != nil {
         log.Fatal(err)
     }
@@ -76,7 +76,7 @@ func main() {
         Keywords: []string{"websites", "user experience", "conversions"},
     }
 
-    err = tmpl.ExecuteTemplate(homePageFile, "home-page.html", homePageParams)
+    err = tmpl.ExecuteTemplate(homePageFile, "main-layout.html", homePageParams)
     if err != nil {
         log.Fatalf("Could not render template to dist/index.html: %v", err)
     }
