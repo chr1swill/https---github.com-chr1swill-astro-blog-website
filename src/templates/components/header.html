@@ -1,20 +1,11 @@
-package components
-
-templ Header() {
-	<header class="w-full h-fit flex flex-row gap-2">
-		<picture>
-			<source
-                type="image/webp"
-                src="images/headshot/headshot-christian-400x400.webp"
-            />
-			<img
-				src="images/headshot/headshot-christian-400x400.jpg"
-				alt="A headshot of Christian wearing a white button up shirt infront of a navy blue backdrop"
-                width="45px"
-                height="45px"
-				class="border-none rounded-full"
-			/>
-		</picture>
-		<p class="font-bold text-text text-[28px]">I'm Christian Williams</p>
-	</header>
-}
+{{ define "header" }}
+<header class="w-full h-fit flex flex-row gap-2">
+    <picture>
+        <source type="image/webp" src="images/headshot/headshot-christian-400x400.webp" />
+        <img src="images/headshot/headshot-christian-400x400.jpg"
+            alt="A headshot of Christian wearing a white button up shirt infront of a navy blue backdrop" width="45px"
+            height="45px" class="border-none rounded-full" />
+    </picture>
+    <p class="font-bold text-text text-[28px]">I'm Christian Williams</p>
+</header>
+{{ end }}

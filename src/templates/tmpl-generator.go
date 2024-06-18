@@ -3,21 +3,36 @@ package main
 import (
 	"context"
 	"log"
-    "github.com/a-h/templ"
-	"mrwill/src/templates/views"
-	"mrwill/src/templates/layouts"
 	"os"
+    "math/rand"
+    "html/template"
+    "time"
 )
+
+func randomId() string {
+    max := 999999
+    min := 100000
+    return string(rand.Intn(max - min))
+}
+
+func currentYear() string {
+    return string(time.Now().Year())
+}
 
 type MainLayoutParams struct {
     title string
     description string
     pageUrl string
-    content templ.Component 
+    content string
     keywords []string
 }
 
 func main() {
+    template.FuncMap{
+        "randomId": randomId,
+        "currentYear": currentYear,
+    }
+
     if _, err := os.Stat("dist"); os.IsNotExist(err) {
         err := os.Mkdir("dist", os.ModePerm)
         if err != nil {

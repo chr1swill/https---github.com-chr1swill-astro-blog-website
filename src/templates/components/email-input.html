@@ -1,28 +1,29 @@
-package components 
-
-templ EmailInput(placeholder, formElementDataId string) {
-    // do some sort of top level form validation to prevent spam inputs can hacker messing shit up
-    <form 
-        data-id={ formElementDataId }
-        action="/newsletter-email-submition"
-        method="post"
-        class="w-full h-[58px] rounded-[16px] bg-background border border-text relative z-0"
+{{ define "email-input" }}
+<form 
+    data-id="{{randomId .}}"
+    action="/newsletter-email-submition"
+    method="post"
+    class="w-full h-[58px] rounded-[16px] bg-background border border-text relative z-0"
     >
     <label 
-        class="w-full h-full z-10 bg-background"
+    class="w-full h-full z-10 bg-background"
     >
-        <span class="hidden">Enter you email into the input then submit the form to subscribe to Christian's newsletter</span>
-        <input type="email"
-            minlength="5"
-            maxlength="320"
-            placeholder={ placeholder }
-            class="w-full h-full font-light text-text text-sm placeholder:text-text-op p-4"
-        >
+    <span class="hidden">Enter you email into the input then submit the form to subscribe to Christian's newsletter</span>
+    <input type="email"
+           minlength="5"
+           maxlength="320"
+           placeholder="Type your email..."
+           class="w-full h-full font-light text-text text-sm placeholder:text-text-op p-4"
+           >
     </label>
     <div 
-        class="w-min h-min absolute inset-[50% auto 50% 10px] z-20"
-    >
-        @Button("Subscribe", "")
+           class="w-min h-min absolute inset-[50% auto 50% 10px] z-20"
+           >
+           {{ $buttonText }}
+           {{ if not (index $button "ButtonText") }}
+                {{ $button = dict "ButtonText" "Subscribe" }}
+           {{ end }}
+           {{ template "button.html" $buttonText }}
     </div>
-    </form>
-}
+</form>
+{{ end }}
