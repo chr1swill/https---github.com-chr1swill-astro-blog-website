@@ -1,6 +1,6 @@
-{{ define "email-input" }}
+{{ block "email-input" . }}
 <form 
-    data-id="{{randomId .}}"
+    data-id="{{randomId}}"
     action="/newsletter-email-submition"
     method="post"
     class="w-full h-[58px] rounded-[16px] bg-background border border-text relative z-0"
@@ -20,7 +20,7 @@
            class="w-min h-min absolute inset-[50% auto 50% 10px] z-20"
            >
            {{ $buttonText := "Subscribe"}}
-           {{ template "button.html" $buttonText }}
+           {{ template "button.html" .ButtonText $buttonText }}
     </div>
 </form>
 {{ end }}

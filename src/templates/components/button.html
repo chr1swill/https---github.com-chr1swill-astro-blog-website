@@ -1,9 +1,9 @@
-{{ define "button" }}
+{{ block "button" . }}
 	<button
-            data-id="{{randomId .}}"
+            data-id="{{randomId}}"
 		submit
 		class="w-min h-min bg-primary rounded-lg font-medium text-lg text-background p-[10px] hover:bg-secondary transition-all ease-out duration-100"
 	>
-    {{.ButtonText }}
+    {{ .ButtonText }}
 	</button>
 {{ end }}

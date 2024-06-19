@@ -87,6 +87,7 @@ func main() {
     if err != nil {
         log.Fatal(err)
     }
+    fmt.Printf("log.Logger: %v\n", homePageContent)
 
     if _, err := os.Stat("dist"); os.IsNotExist(err) {
         err := os.Mkdir("dist", os.ModePerm)

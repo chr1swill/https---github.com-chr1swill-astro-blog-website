@@ -1,6 +1,6 @@
-{{ define "homePage" }}
+{{ block "homePage" . }}
 <div class="w-full h-full flex flex-col gap-8">
-    {{ template "../components/header.html" . }}
+    {{ template "header.html" . }}
     <main>
         <section class="w-full h-fit flex flex-col gap-8">
             <article class="w-full h-fit flex flex-col gap-4">
@@ -11,9 +11,9 @@
                 <p>
                     Subscribe to get future blog posts via email.
                 </p>
-                {{ template "../components/email-input.html" . }}
+                {{ template "email-input.html" . }}
             </article>
-            {{ template "../components/divider.html" . }}
+            {{ template "divider.html" . }}
         </section>
         <article>
             <h2>Blog</h2>
@@ -22,6 +22,6 @@
             <h2>Projects</h2>
         </article>
     </main>
-    {{ template "../components/footer.html" . }}
+    {{ template "footer.html" . }}
 </div>
 {{ end }}

@@ -1,4 +1,4 @@
-{{define "footer" }}
+{{block "footer" . }}
 <footer class="w-full h-fit flex flex-col gap-8 items-center justify-center">
     {{template "divider.html" .}}
     <section class="w-full h-fit flex flex-col gap-5">
@@ -21,7 +21,7 @@
                 height="15px" />
         </span>
         <span>
-            Christian Williams {{currentYear .}}.
+            Christian Williams {{currentYear}}.
         </span>
     </aside>
 </footer>
